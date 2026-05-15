@@ -1,0 +1,15 @@
+{
+  "generated": "2026-05-15T08:00:00+02:00",
+  "events": [
+    {
+      "id": "demo-001",
+      "title": "Erste Daten kommen mit dem nächsten Scraper-Lauf",
+      "category": "Theater",
+      "venue": "Platzhalter",
+      "date": "2026-05-15",
+      "time": "19:30",
+      "url": "",
+      "description": "Die echten Veranstaltungsdaten werden täglich um 7 Uhr früh automatisch eingefügt. Bis dahin siehst du diese Demo."
+    }
+  ]
+}

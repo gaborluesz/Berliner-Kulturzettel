@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Kulturzettel" />
+  <meta name="theme-color" content="#f4f1ea" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <title>Berliner Kulturzettel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300..900;1,8..60,300..900&family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,400..900&display=swap" rel="stylesheet" />
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      font-family: "Source Serif 4", Georgia, serif;
+      background: #f4f1ea;
+      color: #1a1a1a;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+    }
+    body {
+      min-height: 100vh;
+      padding-top: env(safe-area-inset-top);
+      padding-bottom: env(safe-area-inset-bottom);
+    }
+    .display-font { font-family: "Fraunces", "Source Serif 4", Georgia, serif; }
+    .mono-font { font-family: "DM Mono", "Courier New", monospace; }
+
+    .grain::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.04;
+      z-index: 1;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-up { animation: fadeUp 0.5s ease-out backwards; }
+
+    header {
+      border-bottom: 2px solid #1a1a1a;
+      padding: 1.5rem 1.5rem 1.5rem;
+    }
+    .header-inner {
+      max-width: 72rem;
+      margin: 0 auto;
+    }
+    .header-meta {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #666;
+    }
+    h1.title {
+      font-family: "Fraunces", serif;
+      font-size: clamp(2.2rem, 6vw, 4.5rem);
+      font-weight: 900;
+      line-height: 0.95;
+      letter-spacing: -0.03em;
+    }
+    .subtitle-row {
+      margin-top: 0.75rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: baseline;
+    }
+    .subtitle {
+      font-family: "Fraunces", serif;
+      font-style: italic;
+      font-size: 1.05rem;
+      color: #666;
+    }
+    .date-display {
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #999;
+    }
+
+    .date-bar {
+      background: #ebe6da;
+      border-bottom: 1px solid #d4cfc2;
+      padding: 0.75rem 1.5rem;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    .date-bar-inner {
+      max-width: 72rem;
+      margin: 0 auto;
+      display: flex;
+      gap: 0.5rem;
+    }
+    .date-btn {
+      flex-shrink: 0;
+      padding: 0.5rem 1rem;
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      background: transparent;
+      color: #1a1a1a;
+      border: 1px solid #1a1a1a;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .date-btn.active {
+      background: #1a1a1a;
+      color: #f4f1ea;
+    }
+
+    .filter-section {
+      max-width: 72rem;
+      margin: 0 auto;
+      padding: 1.25rem 1.5rem;
+    }
+    .cat-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .cat-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      font-family: "Fraunces", serif;
+      font-size: 0.95rem;
+      font-weight: 500;
+      background: transparent;
+      color: #1a1a1a;
+      border: 1px solid #1a1a1a;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .cat-btn.active {
+      background: #c8553d;
+      color: #f4f1ea;
+      border-color: #c8553d;
+    }
+    .cat-symbol { opacity: 0.7; }
+    .cat-count {
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      opacity: 0.6;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 0.75rem;
+      align-items: stretch;
+    }
+    .search-wrap {
+      flex: 1;
+      position: relative;
+    }
+    .search-icon {
+      position: absolute;
+      left: 0.75rem;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #888;
+      pointer-events: none;
+    }
+    .search-input {
+      width: 100%;
+      padding: 0.6rem 1rem 0.6rem 2.5rem;
+      font-family: "Fraunces", serif;
+      font-size: 0.95rem;
+      background: #fff;
+      border: 1px solid #d4cfc2;
+      color: #1a1a1a;
+    }
+    .search-input:focus { outline: 2px solid #c8553d; outline-offset: -1px; }
+    .upload-btn {
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      cursor: pointer;
+      padding: 0.6rem 1rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      border: 1px solid #1a1a1a;
+      background: transparent;
+      color: #1a1a1a;
+    }
+    .upload-btn input { display: none; }
+
+    main {
+      max-width: 72rem;
+      margin: 0 auto;
+      padding: 0 1.5rem 4rem;
+    }
+
+    .events-grid {
+      display: grid;
+      gap: 1px;
+      background: #d4cfc2;
+    }
+    .event-card {
+      background: #f4f1ea;
+      padding: 1.5rem;
+      transition: transform 0.2s ease;
+    }
+    @media (hover: hover) {
+      .event-card:hover { transform: translateY(-2px); }
+    }
+    .event-inner {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+    .event-main { flex: 1; min-width: 0; }
+    .event-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+    .event-category {
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #c8553d;
+      font-weight: 500;
+    }
+    .event-time {
+      font-family: "DM Mono", monospace;
+      font-size: 0.75rem;
+      color: #888;
+    }
+    .event-title {
+      font-family: "Fraunces", serif;
+      font-size: clamp(1.3rem, 2.5vw, 1.7rem);
+      font-weight: 600;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.25rem;
+    }
+    .event-venue {
+      font-family: "Fraunces", serif;
+      font-style: italic;
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+    .event-description {
+      font-family: "Fraunces", serif;
+      font-size: 0.95rem;
+      color: #444;
+      line-height: 1.5;
+      max-width: 60ch;
+    }
+    .event-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      margin-top: 0.75rem;
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #1a1a1a;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .fav-btn {
+      flex-shrink: 0;
+      padding: 0.5rem;
+      background: transparent;
+      border: 1px solid #d4cfc2;
+      cursor: pointer;
+      color: #888;
+    }
+    .fav-btn.active {
+      border-color: #c8553d;
+      color: #c8553d;
+    }
+    .fav-btn svg { display: block; }
+
+    .empty-state {
+      text-align: center;
+      padding: 4rem 1rem;
+    }
+    .empty-state-title {
+      font-family: "Fraunces", serif;
+      font-style: italic;
+      font-size: 1.3rem;
+      color: #888;
+    }
+    .empty-state-hint {
+      margin-top: 0.5rem;
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #aaa;
+    }
+
+    .fav-banner {
+      margin-top: 2rem;
+      padding: 1rem;
+      background: #ebe6da;
+      border: 1px dashed #c8553d;
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #666;
+    }
+
+    footer {
+      border-top: 2px solid #1a1a1a;
+      background: #ebe6da;
+      margin-top: 3rem;
+    }
+    .footer-inner {
+      max-width: 72rem;
+      margin: 0 auto;
+      padding: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: baseline;
+    }
+    .footer-meta {
+      font-family: "Fraunces", serif;
+      font-style: italic;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .footer-meta-mono {
+      font-family: "DM Mono", monospace;
+      font-style: normal;
+    }
+    .footer-hint {
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #999;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 3rem 1rem;
+      font-family: "DM Mono", monospace;
+      font-size: 0.85rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="grain"></div>
+  <div id="root"></div>
+
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <script type="text/babel">
+    const { useState, useEffect, useMemo } = React;
+
+    const CATEGORIES = ['Alle', 'Theater', 'Konzert', 'Ballett', 'Kunst', 'Lesung'];
+    const CATEGORY_SYMBOLS = {
+      Theater: '◐', Konzert: '♪', Ballett: '✦', Kunst: '■', Lesung: '§',
+    };
+
+    // SVG-Icons inline (statt lucide-react)
+    const StarIcon = ({ filled, size = 18 }) => (
+      <svg width={size} height={size} viewBox="0 0 24 24" fill={filled ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+      </svg>
+    );
+    const SearchIcon = ({ size = 16 }) => (
+      <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
+      </svg>
+    );
+    const ExtLinkIcon = ({ size = 12 }) => (
+      <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M15 3h6v6" /><path d="M10 14 21 3" /><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+      </svg>
+    );
+    const UploadIcon = ({ size = 14 }) => (
+      <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="17 8 12 3 7 8" /><line x1="12" x2="12" y1="3" y2="15" />
+      </svg>
+    );
+
+    // Fallback-Beispieldaten
+    const FALLBACK_DATA = {
+      generated: new Date().toISOString(),
+      events: [
+        { id: "demo-1", title: "Beispiel-Veranstaltung", category: "Theater",
+          venue: "Bitte events.json hochladen", date: new Date().toISOString().slice(0, 10),
+          time: "19:30", url: "", description: "Die App lädt automatisch events.json aus diesem Ordner. Falls sie nicht vorhanden ist, siehst du diese Demo." },
+      ]
+    };
+
+    function App() {
+      const [data, setData] = useState(FALLBACK_DATA);
+      const [selectedDate, setSelectedDate] = useState(new Date().toISOString().slice(0, 10));
+      const [activeCategory, setActiveCategory] = useState('Alle');
+      const [search, setSearch] = useState('');
+      const [favorites, setFavorites] = useState(new Set());
+      const [loading, setLoading] = useState(true);
+
+      // Daten von events.json beim Start laden
+      useEffect(() => {
+        (async () => {
+          try {
+            const r = await fetch('events.json?t=' + Date.now());
+            if (r.ok) {
+              const json = await r.json();
+              if (json.events && Array.isArray(json.events)) {
+                setData(json);
+                const dates = [...new Set(json.events.map(e => e.date))].sort();
+                const today = new Date().toISOString().slice(0, 10);
+                const upcoming = dates.find(d => d >= today) || dates[0];
+                if (upcoming) setSelectedDate(upcoming);
+              }
+            }
+          } catch (e) {
+            // events.json existiert noch nicht — Demo-Daten bleiben
+          }
+          setLoading(false);
+        })();
+      }, []);
+
+      // Favoriten aus localStorage
+      useEffect(() => {
+        try {
+          const saved = localStorage.getItem('kulturzettel-favorites');
+          if (saved) setFavorites(new Set(JSON.parse(saved)));
+        } catch (e) {}
+      }, []);
+
+      const toggleFavorite = (id) => {
+        const next = new Set(favorites);
+        if (next.has(id)) next.delete(id);
+        else next.add(id);
+        setFavorites(next);
+        try {
+          localStorage.setItem('kulturzettel-favorites', JSON.stringify([...next]));
+        } catch (e) {}
+      };
+
+      const availableDates = useMemo(() => {
+        return [...new Set(data.events.map(e => e.date))].sort();
+      }, [data]);
+
+      const filtered = useMemo(() => {
+        return data.events
+          .filter(e => e.date === selectedDate)
+          .filter(e => activeCategory === 'Alle' || e.category === activeCategory)
+          .filter(e => {
+            if (!search) return true;
+            const s = search.toLowerCase();
+            return e.title.toLowerCase().includes(s) ||
+                   e.venue.toLowerCase().includes(s) ||
+                   (e.description || '').toLowerCase().includes(s);
+          })
+          .sort((a, b) => a.time.localeCompare(b.time));
+      }, [data, selectedDate, activeCategory, search]);
+
+      const counts = useMemo(() => {
+        const dayEvents = data.events.filter(e => e.date === selectedDate);
+        const result = { Alle: dayEvents.length };
+        CATEGORIES.slice(1).forEach(cat => {
+          result[cat] = dayEvents.filter(e => e.category === cat).length;
+        });
+        return result;
+      }, [data, selectedDate]);
+
+      const formatDate = (s) => {
+        const d = new Date(s);
+        const weekdays = ['Sonntag', 'Montag', 'Dienstag', 'Mittwoch', 'Donnerstag', 'Freitag', 'Samstag'];
+        const months = ['Januar', 'Februar', 'März', 'April', 'Mai', 'Juni', 'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember'];
+        return `${weekdays[d.getDay()]}, ${d.getDate()}. ${months[d.getMonth()]} ${d.getFullYear()}`;
+      };
+
+      const handleFileUpload = async (e) => {
+        const file = e.target.files?.[0];
+        if (!file) return;
+        try {
+          const text = await file.text();
+          const parsed = JSON.parse(text);
+          if (!parsed.events || !Array.isArray(parsed.events)) {
+            alert('Ungültiges Format. Erwartet: { events: [...] }');
+            return;
+          }
+          setData(parsed);
+          if (parsed.events.length > 0) {
+            const dates = [...new Set(parsed.events.map(ev => ev.date))].sort();
+            if (dates.length > 0) setSelectedDate(dates[0]);
+          }
+        } catch (err) {
+          alert('Fehler beim Laden: ' + err.message);
+        }
+      };
+
+      return (
+        <>
+          <header>
+            <div className="header-inner">
+              <div className="header-meta">
+                <span>Ausgabe № {Math.max(1, availableDates.indexOf(selectedDate) + 1)} · Berlin</span>
+                <span>{data.events.length} Veranstaltungen erfasst</span>
+              </div>
+              <h1 className="title">Berliner Kulturzettel</h1>
+              <div className="subtitle-row">
+                <p className="subtitle">Theater · Konzert · Ballett · Kunst · Lesung</p>
+                <p className="date-display">{formatDate(selectedDate)}</p>
+              </div>
+            </div>
+          </header>
+
+          <div className="date-bar">
+            <div className="date-bar-inner">
+              {availableDates.map(date => {
+                const d = new Date(date);
+                return (
+                  <button
+                    key={date}
+                    className={`date-btn ${date === selectedDate ? 'active' : ''}`}
+                    onClick={() => setSelectedDate(date)}
+                  >
+                    {d.toLocaleDateString('de-DE', { weekday: 'short', day: '2-digit', month: '2-digit' })}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="filter-section">
+            <div className="cat-row">
+              {CATEGORIES.map(cat => (
+                <button
+                  key={cat}
+                  className={`cat-btn ${activeCategory === cat ? 'active' : ''}`}
+                  onClick={() => setActiveCategory(cat)}
+                >
+                  {cat !== 'Alle' && <span className="cat-symbol">{CATEGORY_SYMBOLS[cat]}</span>}
+                  <span>{cat}</span>
+                  <span className="cat-count">{counts[cat] || 0}</span>
+                </button>
+              ))}
+            </div>
+            <div className="search-row">
+              <div className="search-wrap">
+                <span className="search-icon"><SearchIcon /></span>
+                <input
+                  type="text"
+                  className="search-input"
+                  placeholder="Suche nach Titel, Haus, Beschreibung …"
+                  value={search}
+                  onChange={e => setSearch(e.target.value)}
+                />
+              </div>
+              <label className="upload-btn">
+                <UploadIcon />
+                JSON laden
+                <input type="file" accept=".json" onChange={handleFileUpload} />
+              </label>
+            </div>
+          </div>
+
+          <main>
+            {loading && <div className="loading">Lade Daten …</div>}
+
+            {!loading && filtered.length === 0 && (
+              <div className="empty-state">
+                <p className="empty-state-title">Keine Veranstaltungen für diese Auswahl.</p>
+                <p className="empty-state-hint">Versuche eine andere Kategorie oder einen anderen Tag.</p>
+              </div>
+            )}
+
+            <div className="events-grid">
+              {filtered.map((event, idx) => {
+                const isFav = favorites.has(event.id);
+                return (
+                  <article
+                    key={event.id}
+                    className="event-card fade-up"
+                    style={{ animationDelay: `${idx * 50}ms` }}
+                  >
+                    <div className="event-inner">
+                      <div className="event-main">
+                        <div className="event-meta">
+                          <span className="event-category">
+                            {CATEGORY_SYMBOLS[event.category]} {event.category}
+                          </span>
+                          <span className="event-time">{event.time}</span>
+                        </div>
+                        <h2 className="event-title">{event.title}</h2>
+                        <p className="event-venue">{event.venue}</p>
+                        {event.description && (
+                          <p className="event-description">{event.description}</p>
+                        )}
+                        {event.url && (
+                          <a href={event.url} target="_blank" rel="noopener noreferrer" className="event-link">
+                            Zum Haus <ExtLinkIcon />
+                          </a>
+                        )}
+                      </div>
+                      <button
+                        className={`fav-btn ${isFav ? 'active' : ''}`}
+                        onClick={() => toggleFavorite(event.id)}
+                        aria-label={isFav ? 'Aus Favoriten entfernen' : 'Zu Favoriten hinzufügen'}
+                      >
+                        <StarIcon filled={isFav} />
+                      </button>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
+
+            {favorites.size > 0 && (
+              <div className="fav-banner">
+                ★ {favorites.size} {favorites.size === 1 ? 'Veranstaltung' : 'Veranstaltungen'} vorgemerkt
+              </div>
+            )}
+          </main>
+
+          <footer>
+            <div className="footer-inner">
+              <p className="footer-meta">
+                Daten zuletzt aktualisiert: <span className="footer-meta-mono">{new Date(data.generated).toLocaleString('de-DE')}</span>
+              </p>
+              <p className="footer-hint">Aktualisierung täglich automatisch</p>
+            </div>
+          </footer>
+        </>
+      );
+    }
+
+    ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  </script>
+</body>
+</html>
