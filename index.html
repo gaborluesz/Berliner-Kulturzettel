@@ -417,6 +417,9 @@
     const { useState, useEffect, useMemo } = React;
 
     const CATEGORIES = ['Alle', 'Theater', 'Konzert', 'Ballett', 'Kunst', 'Lesung'];
+
+    const getLocalDateStr = (d = new Date()) =>
+      [d.getFullYear(), String(d.getMonth() + 1).padStart(2, '0'), String(d.getDate()).padStart(2, '0')].join('-');
     const CATEGORY_SYMBOLS = {
       Theater: '◐', Konzert: '♪', Ballett: '✦', Kunst: '■', Lesung: '§',
     };
@@ -453,14 +456,14 @@
       generated: new Date().toISOString(),
       events: [
         { id: "demo-1", title: "Beispiel-Veranstaltung", category: "Theater",
-          venue: "Bitte events.json hochladen", date: new Date().toISOString().slice(0, 10),
+          venue: "Bitte events.json hochladen", date: getLocalDateStr(),
           time: "19:30", url: "", description: "Die App lädt automatisch events.json aus diesem Ordner. Falls sie nicht vorhanden ist, siehst du diese Demo." },
       ]
     };
 
     function App() {
       const [data, setData] = useState(FALLBACK_DATA);
-      const [selectedDate, setSelectedDate] = useState(new Date().toISOString().slice(0, 10));
+      const [selectedDate, setSelectedDate] = useState(getLocalDateStr());
       const [activeCategory, setActiveCategory] = useState('Alle');
       const [search, setSearch] = useState('');
       const [favorites, setFavorites] = useState(new Set());
@@ -479,7 +482,7 @@
             if (json.events && Array.isArray(json.events)) {
               setData(json);
               const dates = [...new Set(json.events.map(e => e.date))].sort();
-              const today = new Date().toISOString().slice(0, 10);
+              const today = getLocalDateStr();
               const upcoming = dates.find(d => d >= today) || dates[0];
               if (upcoming) setSelectedDate(upcoming);
             }
