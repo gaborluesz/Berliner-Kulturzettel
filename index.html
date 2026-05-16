@@ -371,6 +371,38 @@
       font-size: 0.85rem;
       color: #666;
     }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .reload-btn {
+      background: transparent;
+      border: 1px solid #1a1a1a;
+      color: #1a1a1a;
+      padding: 0.4rem 0.75rem;
+      cursor: pointer;
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .reload-btn:active { background: #1a1a1a; color: #f4f1ea; }
+
+    .stale-warning {
+      background: #c8553d;
+      color: #f4f1ea;
+      padding: 0.5rem 1.5rem;
+      text-align: center;
+      font-family: "DM Mono", monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
   </style>
 </head>
 <body>
@@ -410,6 +442,11 @@
         <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><polyline points="17 8 12 3 7 8" /><line x1="12" x2="12" y1="3" y2="15" />
       </svg>
     );
+    const ReloadIcon = ({ size = 14, spinning = false }) => (
+      <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={spinning ? { animation: 'spin 0.8s linear infinite' } : {}}>
+        <path d="M3 12a9 9 0 0 1 15-6.7L21 8" /><path d="M21 3v5h-5" /><path d="M21 12a9 9 0 0 1-15 6.7L3 16" /><path d="M3 21v-5h5" />
+      </svg>
+    );
 
     // Fallback-Beispieldaten
     const FALLBACK_DATA = {
@@ -429,26 +466,43 @@
       const [favorites, setFavorites] = useState(new Set());
       const [loading, setLoading] = useState(true);
 
-      // Daten von events.json beim Start laden
-      useEffect(() => {
-        (async () => {
-          try {
-            const r = await fetch('events.json?t=' + Date.now());
-            if (r.ok) {
-              const json = await r.json();
-              if (json.events && Array.isArray(json.events)) {
-                setData(json);
-                const dates = [...new Set(json.events.map(e => e.date))].sort();
-                const today = new Date().toISOString().slice(0, 10);
-                const upcoming = dates.find(d => d >= today) || dates[0];
-                if (upcoming) setSelectedDate(upcoming);
-              }
+      // Daten laden — mit aggressiver Cache-Umgehung
+      const loadData = async (showLoading = true) => {
+        if (showLoading) setLoading(true);
+        try {
+          const r = await fetch('events.json?t=' + Date.now(), {
+            cache: 'no-store',
+            headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate', 'Pragma': 'no-cache' },
+          });
+          if (r.ok) {
+            const json = await r.json();
+            if (json.events && Array.isArray(json.events)) {
+              setData(json);
+              const dates = [...new Set(json.events.map(e => e.date))].sort();
+              const today = new Date().toISOString().slice(0, 10);
+              const upcoming = dates.find(d => d >= today) || dates[0];
+              if (upcoming) setSelectedDate(upcoming);
             }
-          } catch (e) {
-            // events.json existiert noch nicht — Demo-Daten bleiben
           }
-          setLoading(false);
-        })();
+        } catch (e) {
+          // events.json existiert noch nicht — Demo-Daten bleiben
+        }
+        setLoading(false);
+      };
+
+      // Beim Start laden
+      useEffect(() => { loadData(); }, []);
+
+      // Beim Zurückkehren zur App (PWA in Vordergrund) erneut laden
+      useEffect(() => {
+        const onVisible = () => {
+          if (document.visibilityState === 'visible') loadData(false);
+        };
+        document.addEventListener('visibilitychange', onVisible);
+        window.addEventListener('focus', () => loadData(false));
+        return () => {
+          document.removeEventListener('visibilitychange', onVisible);
+        };
       }, []);
 
       // Favoriten aus localStorage
@@ -503,6 +557,16 @@
         return `${weekdays[d.getDay()]}, ${d.getDate()}. ${months[d.getMonth()]} ${d.getFullYear()}`;
       };
 
+      // Alter der Daten in Stunden — für Warnung
+      const dataAgeHours = useMemo(() => {
+        try {
+          const generated = new Date(data.generated).getTime();
+          return Math.round((Date.now() - generated) / (1000 * 60 * 60));
+        } catch { return 0; }
+      }, [data.generated]);
+
+      const isStale = dataAgeHours > 26;
+
       const handleFileUpload = async (e) => {
         const file = e.target.files?.[0];
         if (!file) return;
@@ -538,6 +602,12 @@
               </div>
             </div>
           </header>
+
+          {isStale && (
+            <div className="stale-warning">
+              ⚠ Daten sind {dataAgeHours} Stunden alt — auf ↻ Neu laden tippen
+            </div>
+          )}
 
           <div className="date-bar">
             <div className="date-bar-inner">
@@ -652,7 +722,9 @@
               <p className="footer-meta">
                 Daten zuletzt aktualisiert: <span className="footer-meta-mono">{new Date(data.generated).toLocaleString('de-DE')}</span>
               </p>
-              <p className="footer-hint">Aktualisierung täglich automatisch</p>
+              <button className="reload-btn" onClick={() => loadData(true)} disabled={loading}>
+                <ReloadIcon spinning={loading} /> Neu laden
+              </button>
             </div>
           </footer>
         </>
