@@ -1,0 +1,39 @@
+name: Daten aktualisieren
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Abhängigkeiten installieren
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Scraper ausführen
+        run: python scraper.py --days 14 --output events.json
+
+      - name: Änderungen committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add events.json
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen — nichts zu committen."
+          else
+            git commit -m "Daten-Update $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
