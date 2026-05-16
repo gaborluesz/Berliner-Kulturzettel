@@ -1,15 +1,315 @@
 {
-  "generated": "2026-05-15T08:00:00+02:00",
+  "generated": "2026-05-16T15:37:21.069680+00:00",
   "events": [
     {
-      "id": "demo-001",
-      "title": "Erste Daten kommen mit dem nächsten Scraper-Lauf",
-      "category": "Theater",
-      "venue": "Platzhalter",
-      "date": "2026-05-15",
-      "time": "19:30",
-      "url": "",
-      "description": "Die echten Veranstaltungsdaten werden täglich um 7 Uhr früh automatisch eingefügt. Bis dahin siehst du diese Demo."
+      "id": "8e364eca95",
+      "title": "Vogler Quartett",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-16",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/vogler-quartett/11530",
+      "description": ""
+    },
+    {
+      "id": "add9388aa3",
+      "title": "Espresso-Konzert",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-18",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/11719",
+      "description": "Koffein für die Ohren – mit Elisabeth Brauß"
+    },
+    {
+      "id": "1f85205b54",
+      "title": "Berliner Operngruppe",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-19",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/berliner-operngruppe/12411",
+      "description": "Alberto Franchetti – Fior d’Alpe"
+    },
+    {
+      "id": "8acb082985",
+      "title": "Beethovens „Geistertrio“ und Brahms Klavierquintett",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-19",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/beethovens-geistertrio-und-brahms-klavierquintett/12412",
+      "description": "Liza Ferschtman, Benjamin Hochman und Künstlerinnen des Curtis Institute of Music"
+    },
+    {
+      "id": "f70824233f",
+      "title": "Herz über Kopf: Mahlers Fünfte",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-20",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/herz-uber-kopf-mahlers-funfte/11720",
+      "description": "Musik & Talk mit Charly Hübner"
+    },
+    {
+      "id": "cde51bd326",
+      "title": "Irina Lankova",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-20",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/irina-lankova/12373",
+      "description": "Klavierwerke von Rachmaninow, Skrjabin, Mozart und Chopin"
+    },
+    {
+      "id": "79e6987758",
+      "title": "8ZEHN30 – Kurzkonzert",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-21",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/8zehn30-kurzkonzert/11531",
+      "description": "mit dem Konzerthausorchester Berlin und Joana Mallwitz"
+    },
+    {
+      "id": "69c3cc6191",
+      "title": "Konzerthausorchester Berlin, Joana Mallwitz",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-22",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-joana-mallwitz/11532",
+      "description": "mit Alice Sara Ott (Artist in Residence)"
+    },
+    {
+      "id": "edeb8136a6",
+      "title": "2 x hören",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-22",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/2-x-horen/11722",
+      "description": "Gesprächskonzert"
+    },
+    {
+      "id": "d7198e6d8b",
+      "title": "Führung durch das Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-23",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/12011",
+      "description": "in deutscher Sprache"
+    },
+    {
+      "id": "443a40fbcf",
+      "title": "Konzerthausorchester Berlin, Joana Mallwitz",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-23",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-joana-mallwitz/11533",
+      "description": "mit Alice Sara Ott (Artist in Residence)"
+    },
+    {
+      "id": "df0401b6ab",
+      "title": "Kammermusikmatinee des Konzerthausorchesters",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-24",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/kammermusikmatinee-des-konzerthausorchesters/11534",
+      "description": "mit Werken von August Friedrich Klughardt und Ludwig van Beethoven"
+    },
+    {
+      "id": "1e195533ab",
+      "title": "Berliner Singakademie",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-24",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/berliner-singakademie/12330",
+      "description": "Joh. Seb. Bach Messe h-Moll. BWV 232"
+    },
+    {
+      "id": "66026f7e4f",
+      "title": "Orgel-Matinee am Pfingstmontag",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-25",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/orgel-matinee-am-pfingstmontag/11723",
+      "description": "mit Bine Katrine Bryndorf"
+    },
+    {
+      "id": "6e7b548c14",
+      "title": "Berlin Asian Music Festival (BAMF) Drei Abende. Vier Länder. Eine gemeinsame Klangsprache.",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-25",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/berlin-asian-music-festival-bamf-drei-abende-vier-lander-eine-gemeinsame-klangsprache/12720",
+      "description": "SORI: Klang & Harmonie"
+    },
+    {
+      "id": "043fd496b5",
+      "title": "Konzerthausorchester Gastspiel Bielefeld",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-25",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-gastspiel-bielefeld/12953",
+      "description": "mit Joana Mallwitz und Alice Sara Ott"
+    },
+    {
+      "id": "9e555920d5",
+      "title": "Espresso-Konzert",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-26",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/11724",
+      "description": "Koffein für die Ohren – mit Mitgliedern der Kurt-Sanderling-Akademie des Konzerthausorchesters Berlin"
+    },
+    {
+      "id": "f7c08690bc",
+      "title": "Quatuor Zaïde",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-26",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/quatuor-zaide/11535",
+      "description": "Streichquartett im Kleinen Saal"
+    },
+    {
+      "id": "4a9ef11dd0",
+      "title": "Konzerthausorchester Gastspiel Essen",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-26",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-gastspiel-essen/12954",
+      "description": "mit Joana Mallwitz und Alice Sara Ott"
+    },
+    {
+      "id": "f70457d0ed",
+      "title": "Berlin Asian Music Festival (BAMF) Drei Abende. Vier Länder. Eine gemeinsame Klangsprache.",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-27",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/berlin-asian-music-festival-bamf-drei-abende-vier-lander-eine-gemeinsame-klangsprache/12721",
+      "description": "SORI: Atem & Arirang"
+    },
+    {
+      "id": "1d9129b3e4",
+      "title": "Dresdner Residenz Orchester",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-27",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/dresdner-residenz-orchester/12385",
+      "description": "Beethovens 5. Sinfonie & Vivaldi – Die vier Jahreszeiten"
+    },
+    {
+      "id": "97b5119cb9",
+      "title": "Konzerthausorchester Gastspiel Hamburg",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-27",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-gastspiel-hamburg/12955",
+      "description": "mit Joana Mallwitz und Alice Sara Ott"
+    },
+    {
+      "id": "31c06bf896",
+      "title": "Berlin Asian Music Festival (BAMF) Drei Abende. Vier Länder. Eine gemeinsame Klangsprache.",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-28",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/berlin-asian-music-festival-bamf-drei-abende-vier-lander-eine-gemeinsame-klangsprache/12722",
+      "description": "SORI: Zeit"
+    },
+    {
+      "id": "a1301ec549",
+      "title": "Deutsch-Romantisches Orchester, Marina Quasha",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-28",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/deutsch-romantisches-orchester-marina-quasha/12703",
+      "description": "mit Wenzel Fuchs, Matic Kuder und Christiane Karg"
+    },
+    {
+      "id": "add07eb1e3",
+      "title": "C. Bechstein Klavierabend",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-29",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/c-bechstein-klavierabend/11929",
+      "description": "Dmytro Choni spielt Werke von Felix Mendelssohn Bartholdy, Robert Schumann, Johannes Brahms und Mykola Lysenko"
+    },
+    {
+      "id": "1657bd4967",
+      "title": "Konzerthausorchester Gastspiel Linz",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-29",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-gastspiel-linz/12956",
+      "description": "mit Joana Mallwitz und Alice Sara Ott"
+    },
+    {
+      "id": "bc446427bf",
+      "title": "Führung durch das Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-30",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/12012",
+      "description": "in deutscher Sprache"
+    },
+    {
+      "id": "7174ba268f",
+      "title": "Guided tour of the Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-30",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/guided-tour-of-the-konzerthaus-berlin/12013",
+      "description": "in English"
+    },
+    {
+      "id": "5ac6233ae1",
+      "title": "GALA-KONZERT – 25 Jahre Internationalen Musikakademie",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-30",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/gala-konzert-25-jahre-internationalen-musikakademie/12723",
+      "description": "Internationale Musikakademie zur Förderung musikalisch Hochbegabter in Deutschland"
+    },
+    {
+      "id": "4df655cdd6",
+      "title": "Rundfunk-Sinfonieorchester Berlin, Simone Young",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-30",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/rundfunk-sinfonieorchester-berlin-simone-young/11977",
+      "description": "mit Christian Tetzlaff"
+    },
+    {
+      "id": "5aedbae1d2",
+      "title": "Konzerthausorchester Gastspiel Nürnberg",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-05-30",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-gastspiel-nurnberg/12957",
+      "description": "mit Joana Mallwitz und Alice Sara Ott"
     }
   ]
 }
