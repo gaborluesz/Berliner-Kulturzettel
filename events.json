@@ -1,16 +1,6 @@
 {
-  "generated": "2026-05-18T16:48:52.146747+00:00",
+  "generated": "2026-05-19T16:55:12.908384+00:00",
   "events": [
-    {
-      "id": "add9388aa3",
-      "title": "Espresso-Konzert",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-18",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/11719",
-      "description": "Koffein für die Ohren – mit Elisabeth Brauß"
-    },
     {
       "id": "1f85205b54",
       "title": "Berliner Operngruppe",
