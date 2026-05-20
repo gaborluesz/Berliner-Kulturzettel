@@ -1,26 +1,6 @@
 {
-  "generated": "2026-05-19T16:55:12.908384+00:00",
+  "generated": "2026-05-20T17:44:09.999441+00:00",
   "events": [
-    {
-      "id": "1f85205b54",
-      "title": "Berliner Operngruppe",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-19",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/berliner-operngruppe/12411",
-      "description": "Alberto Franchetti – Fior d’Alpe"
-    },
-    {
-      "id": "8acb082985",
-      "title": "Beethovens „Geistertrio“ und Brahms Klavierquintett",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-19",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/beethovens-geistertrio-und-brahms-klavierquintett/12412",
-      "description": "Liza Ferschtman, Benjamin Hochman und Künstlerinnen des Curtis Institute of Music"
-    },
     {
       "id": "f70824233f",
       "title": "Herz über Kopf: Mahlers Fünfte",
