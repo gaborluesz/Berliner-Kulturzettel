@@ -1,16 +1,6 @@
 {
-  "generated": "2026-05-21T16:30:19.023349+00:00",
+  "generated": "2026-05-22T15:59:31.221375+00:00",
   "events": [
-    {
-      "id": "79e6987758",
-      "title": "8ZEHN30 – Kurzkonzert",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-21",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/8zehn30-kurzkonzert/11531",
-      "description": "mit dem Konzerthausorchester Berlin und Joana Mallwitz"
-    },
     {
       "id": "69c3cc6191",
       "title": "Konzerthausorchester Berlin, Joana Mallwitz",
@@ -222,13 +212,13 @@
       "description": "in English"
     },
     {
-      "id": "5ac6233ae1",
-      "title": "GALA-KONZERT – 25 Jahre Internationalen Musikakademie",
+      "id": "7725021a96",
+      "title": "GALA-KONZERT – 25 Jahre Internationale Musikakademie",
       "category": "Konzert",
       "venue": "Konzerthaus Berlin",
       "date": "2026-05-30",
       "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/gala-konzert-25-jahre-internationalen-musikakademie/12723",
+      "url": "https://www.konzerthaus.de/de/programm/gala-konzert-25-jahre-internationale-musikakademie/12723",
       "description": "Internationale Musikakademie zur Förderung musikalisch Hochbegabter in Deutschland"
     },
     {
