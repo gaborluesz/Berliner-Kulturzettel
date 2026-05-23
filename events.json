@@ -1,26 +1,6 @@
 {
-  "generated": "2026-05-22T15:59:31.221375+00:00",
+  "generated": "2026-05-23T11:00:40.966486+00:00",
   "events": [
-    {
-      "id": "69c3cc6191",
-      "title": "Konzerthausorchester Berlin, Joana Mallwitz",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-22",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-joana-mallwitz/11532",
-      "description": "mit Alice Sara Ott (Artist in Residence)"
-    },
-    {
-      "id": "edeb8136a6",
-      "title": "2 x hören",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-22",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/2-x-horen/11722",
-      "description": "Gesprächskonzert"
-    },
     {
       "id": "d7198e6d8b",
       "title": "Führung durch das Konzerthaus Berlin",
