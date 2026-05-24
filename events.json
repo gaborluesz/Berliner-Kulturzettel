@@ -1,26 +1,6 @@
 {
-  "generated": "2026-05-23T11:00:40.966486+00:00",
+  "generated": "2026-05-24T11:01:49.777056+00:00",
   "events": [
-    {
-      "id": "d7198e6d8b",
-      "title": "Führung durch das Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-23",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/12011",
-      "description": "in deutscher Sprache"
-    },
-    {
-      "id": "443a40fbcf",
-      "title": "Konzerthausorchester Berlin, Joana Mallwitz",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-23",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-joana-mallwitz/11533",
-      "description": "mit Alice Sara Ott (Artist in Residence)"
-    },
     {
       "id": "df0401b6ab",
       "title": "Kammermusikmatinee des Konzerthausorchesters",
