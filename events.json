@@ -1,26 +1,6 @@
 {
-  "generated": "2026-05-24T11:01:49.777056+00:00",
+  "generated": "2026-05-25T16:07:29.315999+00:00",
   "events": [
-    {
-      "id": "df0401b6ab",
-      "title": "Kammermusikmatinee des Konzerthausorchesters",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-24",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/kammermusikmatinee-des-konzerthausorchesters/11534",
-      "description": "mit Werken von August Friedrich Klughardt und Ludwig van Beethoven"
-    },
-    {
-      "id": "1e195533ab",
-      "title": "Berliner Singakademie",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-24",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/berliner-singakademie/12330",
-      "description": "Joh. Seb. Bach Messe h-Moll. BWV 232"
-    },
     {
       "id": "66026f7e4f",
       "title": "Orgel-Matinee am Pfingstmontag",
