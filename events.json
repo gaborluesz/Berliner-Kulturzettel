@@ -1,36 +1,6 @@
 {
-  "generated": "2026-05-25T16:07:29.315999+00:00",
+  "generated": "2026-05-26T17:48:40.604550+00:00",
   "events": [
-    {
-      "id": "66026f7e4f",
-      "title": "Orgel-Matinee am Pfingstmontag",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-25",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/orgel-matinee-am-pfingstmontag/11723",
-      "description": "mit Bine Katrine Bryndorf"
-    },
-    {
-      "id": "6e7b548c14",
-      "title": "Berlin Asian Music Festival (BAMF) Drei Abende. Vier Länder. Eine gemeinsame Klangsprache.",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-25",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/berlin-asian-music-festival-bamf-drei-abende-vier-lander-eine-gemeinsame-klangsprache/12720",
-      "description": "SORI: Klang & Harmonie"
-    },
-    {
-      "id": "043fd496b5",
-      "title": "Konzerthausorchester Gastspiel Bielefeld",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-25",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-gastspiel-bielefeld/12953",
-      "description": "mit Joana Mallwitz und Alice Sara Ott"
-    },
     {
       "id": "9e555920d5",
       "title": "Espresso-Konzert",
