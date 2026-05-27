@@ -1,36 +1,6 @@
 {
-  "generated": "2026-05-26T17:48:40.604550+00:00",
+  "generated": "2026-05-27T17:44:13.517491+00:00",
   "events": [
-    {
-      "id": "9e555920d5",
-      "title": "Espresso-Konzert",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-26",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/11724",
-      "description": "Koffein für die Ohren – mit Mitgliedern der Kurt-Sanderling-Akademie des Konzerthausorchesters Berlin"
-    },
-    {
-      "id": "f7c08690bc",
-      "title": "Quatuor Zaïde",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-26",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/quatuor-zaide/11535",
-      "description": "Streichquartett im Kleinen Saal"
-    },
-    {
-      "id": "4a9ef11dd0",
-      "title": "Konzerthausorchester Gastspiel Essen",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-26",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-gastspiel-essen/12954",
-      "description": "mit Joana Mallwitz und Alice Sara Ott"
-    },
     {
       "id": "f70457d0ed",
       "title": "Berlin Asian Music Festival (BAMF) Drei Abende. Vier Länder. Eine gemeinsame Klangsprache.",
