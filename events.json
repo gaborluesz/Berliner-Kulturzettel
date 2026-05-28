@@ -1,36 +1,6 @@
 {
-  "generated": "2026-05-27T17:44:13.517491+00:00",
+  "generated": "2026-05-28T17:53:06.439859+00:00",
   "events": [
-    {
-      "id": "f70457d0ed",
-      "title": "Berlin Asian Music Festival (BAMF) Drei Abende. Vier Länder. Eine gemeinsame Klangsprache.",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-27",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/berlin-asian-music-festival-bamf-drei-abende-vier-lander-eine-gemeinsame-klangsprache/12721",
-      "description": "SORI: Atem & Arirang"
-    },
-    {
-      "id": "1d9129b3e4",
-      "title": "Dresdner Residenz Orchester",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-27",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/dresdner-residenz-orchester/12385",
-      "description": "Beethovens 5. Sinfonie & Vivaldi – Die vier Jahreszeiten"
-    },
-    {
-      "id": "97b5119cb9",
-      "title": "Konzerthausorchester Gastspiel Hamburg",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-27",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-gastspiel-hamburg/12955",
-      "description": "mit Joana Mallwitz und Alice Sara Ott"
-    },
     {
       "id": "31c06bf896",
       "title": "Berlin Asian Music Festival (BAMF) Drei Abende. Vier Länder. Eine gemeinsame Klangsprache.",
@@ -140,6 +110,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-gastspiel-koln/12958",
       "description": "mit Joana Mallwitz und Alice Sara Ott"
+    },
+    {
+      "id": "644d65933c",
+      "title": "Rundfunk-Sinfonieorchester Berlin, Jaime Martin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-11",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/rundfunk-sinfonieorchester-berlin-jaime-martin/11978",
+      "description": "mit Jan Lisiecki"
     }
   ]
 }
