@@ -1,26 +1,6 @@
 {
-  "generated": "2026-05-28T17:53:06.439859+00:00",
+  "generated": "2026-05-29T17:57:51.626806+00:00",
   "events": [
-    {
-      "id": "31c06bf896",
-      "title": "Berlin Asian Music Festival (BAMF) Drei Abende. Vier Länder. Eine gemeinsame Klangsprache.",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-28",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/berlin-asian-music-festival-bamf-drei-abende-vier-lander-eine-gemeinsame-klangsprache/12722",
-      "description": "SORI: Zeit"
-    },
-    {
-      "id": "a1301ec549",
-      "title": "Deutsch-Romantisches Orchester, Marina Quasha",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-28",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/deutsch-romantisches-orchester-marina-quasha/12703",
-      "description": "mit Wenzel Fuchs, Matic Kuder und Christiane Karg"
-    },
     {
       "id": "add07eb1e3",
       "title": "C. Bechstein Klavierabend",
@@ -120,6 +100,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/rundfunk-sinfonieorchester-berlin-jaime-martin/11978",
       "description": "mit Jan Lisiecki"
+    },
+    {
+      "id": "fd07123754",
+      "title": "Kammermusik des Konzerthausorchesters",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-12",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/kammermusik-des-konzerthausorchesters/11537",
+      "description": "mit Werken von Jean Françaix, Lili Boulanger und Gabriel Fauré"
+    },
+    {
+      "id": "0543ea3ff7",
+      "title": "musica reanimata – Gesprächskonzert",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-12",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/musica-reanimata-gesprachskonzert/12349",
+      "description": "Gustav Brecher: Dirigent, Komponist, Opernerneuerer. Ein jüdisches Musikerleben zwischen Ruhm und Exitus"
     }
   ]
 }
