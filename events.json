@@ -1,26 +1,6 @@
 {
-  "generated": "2026-05-29T17:57:51.626806+00:00",
+  "generated": "2026-05-30T11:05:38.218618+00:00",
   "events": [
-    {
-      "id": "add07eb1e3",
-      "title": "C. Bechstein Klavierabend",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-29",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/c-bechstein-klavierabend/11929",
-      "description": "Dmytro Choni spielt Werke von Felix Mendelssohn Bartholdy, Robert Schumann, Johannes Brahms und Mykola Lysenko"
-    },
-    {
-      "id": "1657bd4967",
-      "title": "Konzerthausorchester Gastspiel Linz",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-29",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-gastspiel-linz/12956",
-      "description": "mit Joana Mallwitz und Alice Sara Ott"
-    },
     {
       "id": "bc446427bf",
       "title": "Führung durch das Konzerthaus Berlin",
@@ -120,6 +100,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/musica-reanimata-gesprachskonzert/12349",
       "description": "Gustav Brecher: Dirigent, Komponist, Opernerneuerer. Ein jüdisches Musikerleben zwischen Ruhm und Exitus"
+    },
+    {
+      "id": "2a4bb2cb69",
+      "title": "KlangKüken",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-13",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/klangkuken/11728",
+      "description": "Freundschaft – Von tremolotiefen Einsamkeiten und hochtrillernden Zweisamkeiten"
+    },
+    {
+      "id": "93e7952002",
+      "title": "Konzerthausorchester Berlin, Fabio Biondi",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-13",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-fabio-biondi/11538",
+      "description": "mit Inmo Yang"
     }
   ]
 }
