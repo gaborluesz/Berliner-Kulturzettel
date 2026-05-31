@@ -1,56 +1,6 @@
 {
-  "generated": "2026-05-30T11:05:38.218618+00:00",
+  "generated": "2026-05-31T11:52:04.956440+00:00",
   "events": [
-    {
-      "id": "bc446427bf",
-      "title": "Führung durch das Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-30",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/12012",
-      "description": "in deutscher Sprache"
-    },
-    {
-      "id": "7174ba268f",
-      "title": "Guided tour of the Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-30",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/guided-tour-of-the-konzerthaus-berlin/12013",
-      "description": "in English"
-    },
-    {
-      "id": "7725021a96",
-      "title": "GALA-KONZERT – 25 Jahre Internationale Musikakademie",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-30",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/gala-konzert-25-jahre-internationale-musikakademie/12723",
-      "description": "Internationale Musikakademie zur Förderung musikalisch Hochbegabter in Deutschland"
-    },
-    {
-      "id": "4df655cdd6",
-      "title": "Rundfunk-Sinfonieorchester Berlin, Simone Young",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-30",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/rundfunk-sinfonieorchester-berlin-simone-young/11977",
-      "description": "mit Christian Tetzlaff"
-    },
-    {
-      "id": "5aedbae1d2",
-      "title": "Konzerthausorchester Gastspiel Nürnberg",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-30",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-gastspiel-nurnberg/12957",
-      "description": "mit Joana Mallwitz und Alice Sara Ott"
-    },
     {
       "id": "d646739e7e",
       "title": "Festveranstaltung Orden Pour le mérite für Wissenschaften und Künste",
@@ -119,6 +69,46 @@
       "date": "2026-06-13",
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-fabio-biondi/11538",
+      "description": "mit Inmo Yang"
+    },
+    {
+      "id": "9cc3a4df23",
+      "title": "Mozart-Matinee",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-14",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/mozart-matinee/11539",
+      "description": "mit dem Konzerthausorchester Berlin, Fabio Biondi"
+    },
+    {
+      "id": "b35e2408a0",
+      "title": "Kinderbetreuung Mozart-Matinee – KlangKüken",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-14",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/kinderbetreuung-mozart-matinee-klangkuken/11933",
+      "description": "Freundschaft – Von tremolotiefen Einsamkeiten und hochtrillernden Zweisamkeiten"
+    },
+    {
+      "id": "cb93640134",
+      "title": "KlangKüken",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-14",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/klangkuken/11730",
+      "description": "Freundschaft – Von tremolotiefen Einsamkeiten und hochtrillernden Zweisamkeiten"
+    },
+    {
+      "id": "511e30a205",
+      "title": "Konzerthausorchester Berlin, Fabio Biondi",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-14",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-fabio-biondi/11540",
       "description": "mit Inmo Yang"
     }
   ]
