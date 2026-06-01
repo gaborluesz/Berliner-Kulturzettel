@@ -1,26 +1,6 @@
 {
-  "generated": "2026-05-31T11:52:04.956440+00:00",
+  "generated": "2026-06-01T21:04:10.281083+00:00",
   "events": [
-    {
-      "id": "d646739e7e",
-      "title": "Festveranstaltung Orden Pour le mérite für Wissenschaften und Künste",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-31",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/festveranstaltung-orden-pour-le-merite-fur-wissenschaften-und-kunste/12697",
-      "description": "mit Überreichung des großen Ordenszeichens an Wolf Biermann, Antje Boetius, Georges Didi-Huberman, Michael Grätzel, Christoph Markschies, Péter Nádas, Sarah Stroumsa und Uğur Şahin"
-    },
-    {
-      "id": "e8795eadb8",
-      "title": "Konzerthausorchester Gastspiel Köln",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-05-31",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-gastspiel-koln/12958",
-      "description": "mit Joana Mallwitz und Alice Sara Ott"
-    },
     {
       "id": "644d65933c",
       "title": "Rundfunk-Sinfonieorchester Berlin, Jaime Martin",
