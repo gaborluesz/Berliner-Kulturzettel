@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T21:04:10.281083+00:00",
+  "generated": "2026-06-02T19:02:04.254205+00:00",
   "events": [
     {
       "id": "644d65933c",
@@ -90,6 +90,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-fabio-biondi/11540",
       "description": "mit Inmo Yang"
+    },
+    {
+      "id": "f350b5b10c",
+      "title": "Sinfoniekonzert der Hochschule für Musik „Hanns Eisler“ Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-16",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/sinfoniekonzert-der-hochschule-fur-musik-hanns-eisler-berlin/12425",
+      "description": ""
     }
   ]
 }
