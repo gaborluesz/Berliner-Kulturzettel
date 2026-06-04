@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03T20:00:16.657798+00:00",
+  "generated": "2026-06-04T16:40:14.028253+00:00",
   "events": [
     {
       "id": "644d65933c",
@@ -110,6 +110,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/11731",
       "description": "Koffein für die Ohren – mit Studierenden der Hochschule für Musik Hanns Eisler Berlin"
+    },
+    {
+      "id": "85ed711592",
+      "title": "Mittendrin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-18",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/mittendrin/11732",
+      "description": "mit dem Konzerthausorchester Berlin und Iván Fischer"
+    },
+    {
+      "id": "4932660ab0",
+      "title": "Bryce Dessners Universum",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-18",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/bryce-dessners-universum/12137",
+      "description": "Ein interdisziplinärer Porträtabend mit Gespräch und Musik"
     }
   ]
 }
