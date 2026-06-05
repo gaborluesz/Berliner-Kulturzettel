@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-04T16:40:14.028253+00:00",
+  "generated": "2026-06-05T16:15:31.578852+00:00",
   "events": [
     {
       "id": "644d65933c",
@@ -130,6 +130,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/bryce-dessners-universum/12137",
       "description": "Ein interdisziplinärer Porträtabend mit Gespräch und Musik"
+    },
+    {
+      "id": "fd1bd4217e",
+      "title": "Konzerthausorchester Berlin, Iván Fischer",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-19",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-ivan-fischer/11541",
+      "description": "mit Anastasia Kobekina"
     }
   ]
 }
