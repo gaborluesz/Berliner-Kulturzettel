@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T16:15:31.578852+00:00",
+  "generated": "2026-06-06T11:11:35.162428+00:00",
   "events": [
     {
       "id": "644d65933c",
@@ -140,6 +140,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-ivan-fischer/11541",
       "description": "mit Anastasia Kobekina"
+    },
+    {
+      "id": "198a66defb",
+      "title": "MADANii x Konzerthausorchester Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-20",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/madanii-x-konzerthausorchester-berlin/13110",
+      "description": "zu Gast beim İÇ İÇE Festival"
     }
   ]
 }
