@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-06T11:11:35.162428+00:00",
+  "generated": "2026-06-07T12:08:14.910066+00:00",
   "events": [
     {
       "id": "644d65933c",
@@ -150,6 +150,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/madanii-x-konzerthausorchester-berlin/13110",
       "description": "zu Gast beim İÇ İÇE Festival"
+    },
+    {
+      "id": "abbd9f98a6",
+      "title": "Konzerthausorchester Berlin, Iván Fischer",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-21",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-ivan-fischer/11542",
+      "description": "mit Anastasia Kobekina"
+    },
+    {
+      "id": "b99bacb246",
+      "title": "Shanghai Conservatory of Music",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-21",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/shanghai-conservatory-of-music/12985",
+      "description": "„Bridges of Excellence – Musical Dialogues Across Cultures“"
     }
   ]
 }
