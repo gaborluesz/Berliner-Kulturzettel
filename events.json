@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T12:08:14.910066+00:00",
+  "generated": "2026-06-08T17:36:49.057978+00:00",
   "events": [
     {
       "id": "644d65933c",
@@ -170,6 +170,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/shanghai-conservatory-of-music/12985",
       "description": "„Bridges of Excellence – Musical Dialogues Across Cultures“"
+    },
+    {
+      "id": "0155312f68",
+      "title": "29. Benefizgala des Lions Club Berlin-Wannsee",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-22",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/29-benefizgala-des-lions-club-berlin-wannsee/12986",
+      "description": "Magie Francaise – zwischen Eleganz und Abgrund"
     }
   ]
 }
