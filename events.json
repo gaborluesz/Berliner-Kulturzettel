@@ -1,16 +1,6 @@
 {
-  "generated": "2026-06-11T17:58:36.177440+00:00",
+  "generated": "2026-06-12T16:33:45.405137+00:00",
   "events": [
-    {
-      "id": "644d65933c",
-      "title": "Rundfunk-Sinfonieorchester Berlin, Jaime Martin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-11",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/rundfunk-sinfonieorchester-berlin-jaime-martin/11978",
-      "description": "mit Jan Lisiecki"
-    },
     {
       "id": "fd07123754",
       "title": "Kammermusik des Konzerthausorchesters",
@@ -210,6 +200,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/nikolai-medvedev-fusions-jazz-night/12388",
       "description": "Album- Release-Konzert"
+    },
+    {
+      "id": "c5864c1dd2",
+      "title": "Berlin Tracks: A Song For You & Konzerthausorchester Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-26",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/berlin-tracks-a-song-for-you-konzerthausorchester-berlin/11857",
+      "description": "„A Soulful Missa“ – Groovegetriebene Songs für Soulchor und Orchester"
     }
   ]
 }
