@@ -1,26 +1,6 @@
 {
-  "generated": "2026-06-12T16:33:45.405137+00:00",
+  "generated": "2026-06-13T12:09:19.107939+00:00",
   "events": [
-    {
-      "id": "fd07123754",
-      "title": "Kammermusik des Konzerthausorchesters",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-12",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/kammermusik-des-konzerthausorchesters/11537",
-      "description": "mit Werken von Jean Françaix, Lili Boulanger und Gabriel Fauré"
-    },
-    {
-      "id": "0543ea3ff7",
-      "title": "musica reanimata – Gesprächskonzert",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-12",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/musica-reanimata-gesprachskonzert/12349",
-      "description": "Gustav Brecher: Dirigent, Komponist, Opernerneuerer. Ein jüdisches Musikerleben zwischen Ruhm und Exitus"
-    },
     {
       "id": "2a4bb2cb69",
       "title": "KlangKüken",
@@ -209,6 +189,36 @@
       "date": "2026-06-26",
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/berlin-tracks-a-song-for-you-konzerthausorchester-berlin/11857",
+      "description": "„A Soulful Missa“ – Groovegetriebene Songs für Soulchor und Orchester"
+    },
+    {
+      "id": "f0ac00f199",
+      "title": "Führung durch das Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-27",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/12015",
+      "description": "in deutscher Sprache"
+    },
+    {
+      "id": "a64b115d61",
+      "title": "Guided tour of the Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-27",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/guided-tour-of-the-konzerthaus-berlin/12016",
+      "description": "in English"
+    },
+    {
+      "id": "430a7ed2a5",
+      "title": "Berlin Tracks: A Song For You & Konzerthausorchester Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-27",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/berlin-tracks-a-song-for-you-konzerthausorchester-berlin/11872",
       "description": "„A Soulful Missa“ – Groovegetriebene Songs für Soulchor und Orchester"
     }
   ]
