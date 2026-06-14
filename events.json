@@ -1,26 +1,6 @@
 {
-  "generated": "2026-06-13T12:09:19.107939+00:00",
+  "generated": "2026-06-14T12:29:10.955318+00:00",
   "events": [
-    {
-      "id": "2a4bb2cb69",
-      "title": "KlangKüken",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-13",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/klangkuken/11728",
-      "description": "Freundschaft – Von tremolotiefen Einsamkeiten und hochtrillernden Zweisamkeiten"
-    },
-    {
-      "id": "93e7952002",
-      "title": "Konzerthausorchester Berlin, Fabio Biondi",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-13",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-fabio-biondi/11538",
-      "description": "mit Inmo Yang"
-    },
     {
       "id": "9cc3a4df23",
       "title": "Mozart-Matinee",
@@ -220,6 +200,36 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/berlin-tracks-a-song-for-you-konzerthausorchester-berlin/11872",
       "description": "„A Soulful Missa“ – Groovegetriebene Songs für Soulchor und Orchester"
+    },
+    {
+      "id": "9772da2745",
+      "title": "Familienführung",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-28",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/familienfuhrung/11954",
+      "description": "„Wir entdecken das Konzerthaus“"
+    },
+    {
+      "id": "2cc8c7fa5a",
+      "title": "Jeunesse Musicale Européenne",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-28",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/jeunesse-musicale-europeenne/12331",
+      "description": ""
+    },
+    {
+      "id": "f74065354f",
+      "title": "Kontraste, Rhapsodien und Aphorismen",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-28",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/kontraste-rhapsodien-und-aphorismen/12718",
+      "description": "Hommage an die Komponistin Ursula Mamlok mit Preisträger:innen des Dwight und Ursula Mamlokpreises 2026"
     }
   ]
 }
