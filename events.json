@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T19:59:16.711826+00:00",
+  "generated": "2026-06-16T11:03:36.464407+00:00",
   "events": [
     {
       "id": "f350b5b10c",
@@ -200,6 +200,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/orchester-der-komischen-oper-berlin/12366",
       "description": "Sacre Chor – Das französische Sinfoniekonzert"
+    },
+    {
+      "id": "ed53242412",
+      "title": "Publikumsorchester Konzerthaus Berlin, Dirk Wucherpfennig",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-30",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/publikumsorchester-konzerthaus-berlin-dirk-wucherpfennig/12927",
+      "description": "mit Valdemar Wenzel Most"
+    },
+    {
+      "id": "a8ceafb228",
+      "title": "Sonar Quartett",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-06-30",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/sonar-quartett/11734",
+      "description": ""
     }
   ]
 }
