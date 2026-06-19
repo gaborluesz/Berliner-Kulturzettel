@@ -1,26 +1,6 @@
 {
-  "generated": "2026-06-18T10:14:51.490557+00:00",
+  "generated": "2026-06-19T10:20:03.410208+00:00",
   "events": [
-    {
-      "id": "85ed711592",
-      "title": "Mittendrin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-18",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/mittendrin/11732",
-      "description": "mit dem Konzerthausorchester Berlin und Iván Fischer"
-    },
-    {
-      "id": "4932660ab0",
-      "title": "Bryce Dessners Universum",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-18",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/bryce-dessners-universum/12137",
-      "description": "Ein interdisziplinärer Porträtabend mit Gespräch und Musik"
-    },
     {
       "id": "fd1bd4217e",
       "title": "Konzerthausorchester Berlin, Iván Fischer",
