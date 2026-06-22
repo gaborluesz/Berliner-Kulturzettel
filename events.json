@@ -1,26 +1,6 @@
 {
-  "generated": "2026-06-21T09:43:42.585070+00:00",
+  "generated": "2026-06-22T11:45:29.322368+00:00",
   "events": [
-    {
-      "id": "abbd9f98a6",
-      "title": "Konzerthausorchester Berlin, Iván Fischer",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-21",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-ivan-fischer/11542",
-      "description": "mit Anastasia Kobekina"
-    },
-    {
-      "id": "b99bacb246",
-      "title": "Shanghai Conservatory of Music",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-21",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/shanghai-conservatory-of-music/12985",
-      "description": "„Bridges of Excellence – Musical Dialogues Across Cultures“"
-    },
     {
       "id": "0155312f68",
       "title": "29. Benefizgala des Lions Club Berlin-Wannsee",
