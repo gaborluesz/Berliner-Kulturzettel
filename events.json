@@ -1,36 +1,6 @@
 {
-  "generated": "2026-06-28T08:46:20.520567+00:00",
+  "generated": "2026-06-29T10:48:04.997627+00:00",
   "events": [
-    {
-      "id": "9772da2745",
-      "title": "Familienführung",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-28",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/familienfuhrung/11954",
-      "description": "„Wir entdecken das Konzerthaus“"
-    },
-    {
-      "id": "2cc8c7fa5a",
-      "title": "Jeunesse Musicale Européenne",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-28",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/jeunesse-musicale-europeenne/12331",
-      "description": ""
-    },
-    {
-      "id": "f74065354f",
-      "title": "Kontraste, Rhapsodien und Aphorismen",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-28",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/kontraste-rhapsodien-und-aphorismen/12718",
-      "description": "Hommage an die Komponistin Ursula Mamlok mit Preisträger:innen des Dwight und Ursula Mamlokpreises 2026"
-    },
     {
       "id": "0be611c35e",
       "title": "Orchester der Komischen Oper Berlin",
