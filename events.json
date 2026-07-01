@@ -1,25 +1,4 @@
 {
-  "generated": "2026-06-30T09:26:04.208492+00:00",
-  "events": [
-    {
-      "id": "ed53242412",
-      "title": "Publikumsorchester Konzerthaus Berlin, Dirk Wucherpfennig",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-30",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/publikumsorchester-konzerthaus-berlin-dirk-wucherpfennig/12927",
-      "description": "mit Valdemar Wenzel Most"
-    },
-    {
-      "id": "a8ceafb228",
-      "title": "Sonar Quartett",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-06-30",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/sonar-quartett/11734",
-      "description": "Werke von Björk, Radiohead, John Cage u.a."
-    }
-  ]
+  "generated": "2026-07-01T09:38:23.652866+00:00",
+  "events": []
 }
