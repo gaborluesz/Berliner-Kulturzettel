@@ -1,4 +1,15 @@
 {
-  "generated": "2026-07-16T08:04:50.222599+00:00",
-  "events": []
+  "generated": "2026-07-17T08:02:12.565751+00:00",
+  "events": [
+    {
+      "id": "238cb98e36",
+      "title": "Bundesjugendorchester",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-07-31",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/bundesjugendorchester/12897",
+      "description": "Young Euro Classic 2026"
+    }
+  ]
 }
