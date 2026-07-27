@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T08:20:09.268532+00:00",
+  "generated": "2026-07-27T09:41:12.722585+00:00",
   "events": [
     {
       "id": "238cb98e36",
@@ -9,6 +9,26 @@
       "date": "2026-07-31",
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/bundesjugendorchester/12897",
+      "description": "Young Euro Classic 2026"
+    },
+    {
+      "id": "549e8fc787",
+      "title": "Sommerliche Führung durch das Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-08-10",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/sommerliche-fuhrung-durch-das-konzerthaus-berlin/12946",
+      "description": "in deutscher Sprache"
+    },
+    {
+      "id": "d6d4cc1c41",
+      "title": "Orchestra of the Americas & Penderecki Youth Orchestra",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-08-10",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/orchestra-of-the-americas-penderecki-youth-orchestra/12911",
       "description": "Young Euro Classic 2026"
     }
   ]
