@@ -1,26 +1,6 @@
 {
-  "generated": "2026-08-12T07:17:17.052150+00:00",
+  "generated": "2026-08-13T07:19:27.983174+00:00",
   "events": [
-    {
-      "id": "168267af5f",
-      "title": "Sommerliche Führung durch das Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-08-12",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/sommerliche-fuhrung-durch-das-konzerthaus-berlin/12948",
-      "description": "in deutscher Sprache"
-    },
-    {
-      "id": "391b1d3acf",
-      "title": "Ulster Youth Orchestra",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-08-12",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/ulster-youth-orchestra/12913",
-      "description": "Young Euro Classic 2026"
-    },
     {
       "id": "2b739b625c",
       "title": "Sommerliche Führung durch das Konzerthaus Berlin",
