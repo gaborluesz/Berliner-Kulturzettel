@@ -1,26 +1,6 @@
 {
-  "generated": "2026-08-13T07:19:27.983174+00:00",
+  "generated": "2026-08-14T07:17:07.524319+00:00",
   "events": [
-    {
-      "id": "2b739b625c",
-      "title": "Sommerliche Führung durch das Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-08-13",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/sommerliche-fuhrung-durch-das-konzerthaus-berlin/12949",
-      "description": "in deutscher Sprache"
-    },
-    {
-      "id": "71cd836b05",
-      "title": "Slovenian Youth Orchestra",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-08-13",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/slovenian-youth-orchestra/12914",
-      "description": "Young Euro Classic 2026"
-    },
     {
       "id": "fea47a38b4",
       "title": "Sommerliche Führung durch das Konzerthaus Berlin",
