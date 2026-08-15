@@ -1,26 +1,6 @@
 {
-  "generated": "2026-08-14T07:17:07.524319+00:00",
+  "generated": "2026-08-15T06:29:23.470803+00:00",
   "events": [
-    {
-      "id": "fea47a38b4",
-      "title": "Sommerliche Führung durch das Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-08-14",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/sommerliche-fuhrung-durch-das-konzerthaus-berlin/12950",
-      "description": "in deutscher Sprache"
-    },
-    {
-      "id": "1f7fa8765f",
-      "title": "Angelika Prokopp Sommerakademie der Wiener Philharmoniker",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-08-14",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/angelika-prokopp-sommerakademie-der-wiener-philharmoniker/12915",
-      "description": "Young Euro Classic 2026"
-    },
     {
       "id": "ffd73c9e55",
       "title": "Sommerliche Führung durch das Konzerthaus Berlin",
