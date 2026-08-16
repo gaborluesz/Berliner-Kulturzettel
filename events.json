@@ -1,46 +1,6 @@
 {
-  "generated": "2026-08-15T06:29:23.470803+00:00",
+  "generated": "2026-08-16T06:31:55.832843+00:00",
   "events": [
-    {
-      "id": "ffd73c9e55",
-      "title": "Sommerliche Führung durch das Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-08-15",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/sommerliche-fuhrung-durch-das-konzerthaus-berlin/12951",
-      "description": "in deutscher Sprache"
-    },
-    {
-      "id": "8b884a49a8",
-      "title": "Guided tour of the Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-08-15",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/guided-tour-of-the-konzerthaus-berlin/12962",
-      "description": "in English"
-    },
-    {
-      "id": "73868a8964",
-      "title": "niva – Argentinien",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-08-15",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/niva-argentinien/12916",
-      "description": "Festival im Festival „FUTURE NOW – Musical Diaries“"
-    },
-    {
-      "id": "c90f97a499",
-      "title": "Estonian National Opera Boys' Choir",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-08-15",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/estonian-national-opera-boys-choir/12917",
-      "description": "Young Euro Classic 2026"
-    },
     {
       "id": "35f5cfaab8",
       "title": "Sommerliche Führung durch das Konzerthaus Berlin",
