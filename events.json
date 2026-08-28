@@ -1,4 +1,15 @@
 {
-  "generated": "2026-08-27T17:15:13.871425+00:00",
-  "events": []
+  "generated": "2026-08-28T18:07:46.986544+00:00",
+  "events": [
+    {
+      "id": "ded943ffea",
+      "title": "Konzerthausorchester Berlin, Joana Mallwitz",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-11",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-joana-mallwitz/12463",
+      "description": "Exklusives Vorkonzert für MEIN KONZERTHAUS-Mitglieder"
+    }
+  ]
 }
