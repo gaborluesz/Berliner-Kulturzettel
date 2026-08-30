@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T12:10:39.449892+00:00",
+  "generated": "2026-08-30T11:06:48.905280+00:00",
   "events": [
     {
       "id": "ded943ffea",
@@ -30,6 +30,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/freiluftkino-friedrichshain-livestream-der-saisoneroffnung/13376",
       "description": "mit dem Konzerthausorchester Berlin und Joana Mallwitz"
+    },
+    {
+      "id": "800570d50b",
+      "title": "Konzerthausorchester Berlin, Joana Mallwitz",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-13",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-joana-mallwitz/12465",
+      "description": ""
     }
   ]
 }
