@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T10:59:35.966833+00:00",
+  "generated": "2026-09-02T10:29:48.910567+00:00",
   "events": [
     {
       "id": "ded943ffea",
@@ -50,6 +50,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/zulfu-livaneli-und-gaste/12467",
       "description": "mit Martina Gedeck als Sprecherin"
+    },
+    {
+      "id": "4a81f8b0d9",
+      "title": "Herz über Kopf: „Liebe, D-Mark, Tod“",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-16",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/herz-uber-kopf-liebe-d-mark-tod/13158",
+      "description": "Musik & Talk mit Charly Hübner"
     }
   ]
 }
