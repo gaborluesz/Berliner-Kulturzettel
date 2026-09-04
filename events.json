@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-03T10:35:14.398126+00:00",
+  "generated": "2026-09-04T10:26:42.061691+00:00",
   "events": [
     {
       "id": "7506076864",
@@ -80,6 +80,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/rundfunk-sinfonieorchester-berlin-ulf-schirmer/13312",
       "description": "Operngala – Deutsche Romantik"
+    },
+    {
+      "id": "73e87f97fb",
+      "title": "NEXTDOOR TALK",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-18",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/nextdoor-talk/13478",
+      "description": "Vinyltalk mit Erbatur Çavuşoğlu (Lefter Records / Rumi Sounds)"
+    },
+    {
+      "id": "92c754fe9f",
+      "title": "Da Capo-Trio",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-18",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/da-capo-trio/13357",
+      "description": "Zwischen Zerbrechlichkeit und Zähigkeit – Klangbilder einer Insel im Wandel"
     }
   ]
 }
