@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05T09:53:37.189148+00:00",
+  "generated": "2026-09-06T10:09:54.410402+00:00",
   "events": [
     {
       "id": "7506076864",
@@ -130,6 +130,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/akademie-fur-alte-musik-berlin/12471",
       "description": "„Il delirio amoroso“ – Im Liebeswahn"
+    },
+    {
+      "id": "2e12b03792",
+      "title": "Kammermusikmatinee des Konzerthausorchesters",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-20",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/kammermusikmatinee-des-konzerthausorchesters/12785",
+      "description": "mit einem Streichquintett von Georges Onslow und Franz Schuberts „Forellen-Quintett“"
     }
   ]
 }
