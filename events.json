@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T10:09:54.410402+00:00",
+  "generated": "2026-09-07T11:24:56.657517+00:00",
   "events": [
     {
       "id": "7506076864",
@@ -30,6 +30,36 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/freiluftkino-friedrichshain-livestream-der-saisoneroffnung/13376",
       "description": "mit dem Konzerthausorchester Berlin und Jonathan Nott"
+    },
+    {
+      "id": "91f9565cbb",
+      "title": "Führung durch das Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-13",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/13496",
+      "description": "im Rahmen der Berlin Art Week 2026"
+    },
+    {
+      "id": "bf3ebc7efa",
+      "title": "Führung: Leyla Yenirce – Die Leinwand als Konzerthaus",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-13",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/fuhrung-leyla-yenirce-die-leinwand-als-konzerthaus/13497",
+      "description": "im Rahmen der Berlin Art Week 2026"
+    },
+    {
+      "id": "aec0b3fc88",
+      "title": "Stühle – Eine Performance von Leyla Yenirce mit Solomon Garçon",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-13",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/stuhle-eine-performance-von-leyla-yenirce-mit-solomon-garcon/13495",
+      "description": "im Rahmen von Featured 2026"
     },
     {
       "id": "fe3c1b9bea",
