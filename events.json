@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T10:39:58.278585+00:00",
+  "generated": "2026-09-10T10:27:52.796262+00:00",
   "events": [
     {
       "id": "7506076864",
@@ -160,6 +160,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/kammermusikmatinee-des-konzerthausorchesters/12785",
       "description": "mit einem Streichquintett von Georges Onslow und Franz Schuberts „Forellen-Quintett“"
+    },
+    {
+      "id": "c05078b3ac",
+      "title": "Mittendrin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-24",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/mittendrin/12458",
+      "description": "mit dem Konzerthausorchester Berlin und Iván Fischer"
+    },
+    {
+      "id": "69035b2aba",
+      "title": "C. Bechstein Klavierabend",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-24",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/c-bechstein-klavierabend/13314",
+      "description": "Michelle Candotti spielt Werke von Franz Liszt, Béla Bartók und Fryderyk Chopin"
     }
   ]
 }
