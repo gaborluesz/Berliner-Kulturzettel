@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10T10:27:52.796262+00:00",
+  "generated": "2026-09-11T10:29:55.095609+00:00",
   "events": [
     {
       "id": "7506076864",
@@ -180,6 +180,36 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/c-bechstein-klavierabend/13314",
       "description": "Michelle Candotti spielt Werke von Franz Liszt, Béla Bartók und Fryderyk Chopin"
+    },
+    {
+      "id": "37bbc0a008",
+      "title": "Espresso-Konzert",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-25",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/12460",
+      "description": "Koffein für die Ohren – mit Charlotte Miles und Avery Gagliano"
+    },
+    {
+      "id": "5facf84a53",
+      "title": "Konzerthausorchester Berlin, Iván Fischer",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-25",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-ivan-fischer/12461",
+      "description": "mit Patricia Kopatchinskaja"
+    },
+    {
+      "id": "3e9344859e",
+      "title": "Drumcom – Ein Abend bei den Voermans",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-25",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/drumcom-ein-abend-bei-den-voermans/13257",
+      "description": "Szenisches Schlagzeugkonzert zwischen Küchenchaos und Trommelwirbel"
     }
   ]
 }
