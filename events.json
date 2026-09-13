@@ -1,26 +1,6 @@
 {
-  "generated": "2026-09-12T09:58:21.077783+00:00",
+  "generated": "2026-09-13T10:59:35.952807+00:00",
   "events": [
-    {
-      "id": "751f5cef1b",
-      "title": "Konzert zur Saisoneröffnung",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-12",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzert-zur-saisoneroffnung/12464",
-      "description": "mit dem Konzerthausorchester Berlin, Jonathan Nott"
-    },
-    {
-      "id": "5b82eb48bc",
-      "title": "Freiluftkino Friedrichshain: Livestream der Saisoneröffnung",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-12",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/freiluftkino-friedrichshain-livestream-der-saisoneroffnung/13376",
-      "description": "mit dem Konzerthausorchester Berlin und Jonathan Nott"
-    },
     {
       "id": "bf3ebc7efa",
       "title": "Führung: Leyla Yenirce – Die Leinwand als Konzerthaus",
@@ -250,6 +230,36 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/rundfunk-sinfonieorchester-berlin-marin-alsop/13315",
       "description": "mit Johan Dalene"
+    },
+    {
+      "id": "e318a4c647",
+      "title": "Happy Birthday, Charly!",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-27",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/happy-birthday-charly/12475",
+      "description": "Eine Drumcom mit Schlagwerk Voermans"
+    },
+    {
+      "id": "b6308ef3f6",
+      "title": "Familienführung",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-27",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/familienfuhrung/12964",
+      "description": "„Wir entdecken das Konzerthaus“"
+    },
+    {
+      "id": "3f8e6690ea",
+      "title": "Konzerthausorchester Berlin, Iván Fischer",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-27",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-ivan-fischer/12477",
+      "description": "mit Patricia Kopatchinskaja"
     }
   ]
 }
