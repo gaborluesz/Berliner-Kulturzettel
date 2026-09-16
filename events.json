@@ -1,16 +1,6 @@
 {
-  "generated": "2026-09-15T10:55:09.163269+00:00",
+  "generated": "2026-09-16T10:44:38.506347+00:00",
   "events": [
-    {
-      "id": "e075d570d8",
-      "title": "Zülfü Livaneli und Gäste",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-15",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/zulfu-livaneli-und-gaste/12467",
-      "description": "mit Martina Gedeck als Sprecherin"
-    },
     {
       "id": "4a81f8b0d9",
       "title": "Herz über Kopf: „Liebe, D-Mark, Tod“",
@@ -230,6 +220,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-ivan-fischer/12477",
       "description": "mit Patricia Kopatchinskaja"
+    },
+    {
+      "id": "3c4fe08903",
+      "title": "Espresso-Konzert",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-30",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/12481",
+      "description": "Koffein für die Ohren – mit dem Heval Trio"
+    },
+    {
+      "id": "7756bafa3b",
+      "title": "AGGREGATE Festival 2026 – Eröffnungskonzert",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-09-30",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/aggregate-festival-2026-eroffnungskonzert/12482",
+      "description": "pipes & circuits – neue Werke für Hyperorgel"
     }
   ]
 }
