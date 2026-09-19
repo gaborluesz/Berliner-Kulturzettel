@@ -1,26 +1,6 @@
 {
-  "generated": "2026-09-18T10:27:10.163321+00:00",
+  "generated": "2026-09-19T10:12:10.625943+00:00",
   "events": [
-    {
-      "id": "73e87f97fb",
-      "title": "NEXTDOOR TALK",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-18",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/nextdoor-talk/13478",
-      "description": "Vinyltalk mit Erbatur Çavuşoğlu (Lefter Records / Rumi Sounds)"
-    },
-    {
-      "id": "92c754fe9f",
-      "title": "Da Capo-Trio",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-18",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/da-capo-trio/13357",
-      "description": "Zwischen Zerbrechlichkeit und Zähigkeit – Klangbilder einer Insel im Wandel"
-    },
     {
       "id": "c7f09d9ae4",
       "title": "FamilienKonzert mit dem Konzerthausorchester",
