@@ -1,36 +1,6 @@
 {
-  "generated": "2026-09-19T10:12:10.625943+00:00",
+  "generated": "2026-09-20T10:30:26.499896+00:00",
   "events": [
-    {
-      "id": "c7f09d9ae4",
-      "title": "FamilienKonzert mit dem Konzerthausorchester",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-19",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/familienkonzert-mit-dem-konzerthausorchester/12469",
-      "description": "Magie der Töne"
-    },
-    {
-      "id": "8271b36a4b",
-      "title": "Führung durch das Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-19",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/13313",
-      "description": "in deutscher Sprache"
-    },
-    {
-      "id": "cdab4a0773",
-      "title": "Akademie für Alte Musik Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-19",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/akademie-fur-alte-musik-berlin/12471",
-      "description": "„Il delirio amoroso“ – Im Liebeswahn"
-    },
     {
       "id": "2e12b03792",
       "title": "Kammermusikmatinee des Konzerthausorchesters",
