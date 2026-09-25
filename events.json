@@ -1,26 +1,6 @@
 {
-  "generated": "2026-09-24T10:59:35.050139+00:00",
+  "generated": "2026-09-25T11:00:13.718143+00:00",
   "events": [
-    {
-      "id": "c05078b3ac",
-      "title": "Mittendrin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-24",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/mittendrin/12458",
-      "description": "mit dem Konzerthausorchester Berlin und Iván Fischer"
-    },
-    {
-      "id": "69035b2aba",
-      "title": "C. Bechstein Klavierabend",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-24",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/c-bechstein-klavierabend/13314",
-      "description": "Michelle Candotti spielt Werke von Franz Liszt, Béla Bartók und Fryderyk Chopin"
-    },
     {
       "id": "37bbc0a008",
       "title": "Espresso-Konzert",
