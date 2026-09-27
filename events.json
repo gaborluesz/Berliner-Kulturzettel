@@ -1,56 +1,6 @@
 {
-  "generated": "2026-09-26T10:42:26.703508+00:00",
+  "generated": "2026-09-27T11:16:00.799415+00:00",
   "events": [
-    {
-      "id": "1625fa849d",
-      "title": "Happy Birthday, Charly!",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/happy-birthday-charly/12473",
-      "description": "Eine Drumcom mit Schlagwerk Voermans"
-    },
-    {
-      "id": "c99d37c5a6",
-      "title": "Führung durch das Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/13128",
-      "description": "in deutscher Sprache"
-    },
-    {
-      "id": "182d2ca733",
-      "title": "Guided tour of the Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/guided-tour-of-the-konzerthaus-berlin/12976",
-      "description": "in English"
-    },
-    {
-      "id": "b2ffe9067a",
-      "title": "Drumcom – Ein Abend bei den Voermans",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/drumcom-ein-abend-bei-den-voermans/13258",
-      "description": "Szenisches Schlagzeugkonzert zwischen Küchenchaos und Trommelwirbel"
-    },
-    {
-      "id": "b27178af84",
-      "title": "Rundfunk-Sinfonieorchester Berlin, Marin Alsop",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-26",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/rundfunk-sinfonieorchester-berlin-marin-alsop/13315",
-      "description": "mit Johan Dalene"
-    },
     {
       "id": "e318a4c647",
       "title": "Happy Birthday, Charly!",
@@ -100,6 +50,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/aggregate-festival-2026-eroffnungskonzert/12482",
       "description": "pipes & circuits – neue Werke für Hyperorgel"
+    },
+    {
+      "id": "a86b2d9072",
+      "title": "OPUS KLASSIK Gala 2026",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-11",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/opus-klassik-gala-2026/13396",
+      "description": "Verleihung des Klassikpreises im Konzerthaus Berlin"
     }
   ]
 }
