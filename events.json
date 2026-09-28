@@ -1,36 +1,6 @@
 {
-  "generated": "2026-09-27T11:16:00.799415+00:00",
+  "generated": "2026-09-28T12:44:02.292472+00:00",
   "events": [
-    {
-      "id": "e318a4c647",
-      "title": "Happy Birthday, Charly!",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-27",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/happy-birthday-charly/12475",
-      "description": "Eine Drumcom mit Schlagwerk Voermans"
-    },
-    {
-      "id": "b6308ef3f6",
-      "title": "Familienführung",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-27",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/familienfuhrung/12964",
-      "description": "„Wir entdecken das Konzerthaus“"
-    },
-    {
-      "id": "3f8e6690ea",
-      "title": "Konzerthausorchester Berlin, Iván Fischer",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-27",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-ivan-fischer/12477",
-      "description": "mit Patricia Kopatchinskaja"
-    },
     {
       "id": "3c4fe08903",
       "title": "Espresso-Konzert",
