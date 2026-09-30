@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29T12:00:36.612027+00:00",
+  "generated": "2026-09-30T11:49:01.027365+00:00",
   "events": [
     {
       "id": "3c4fe08903",
@@ -30,6 +30,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/opus-klassik-gala-2026/13396",
       "description": "Verleihung des Klassikpreises im Konzerthaus Berlin"
+    },
+    {
+      "id": "02b6d93114",
+      "title": "Espresso-Konzert",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-14",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/12488",
+      "description": "Koffein für die Ohren – mit Žilvinas Brazauskas und Marlene Heiß"
+    },
+    {
+      "id": "288eb031aa",
+      "title": "Berliner Konzert Chor",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-14",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/berliner-konzert-chor/13346",
+      "description": "Christoph Reuter – „A Modern Man – Ein Oratorium über Lyonel Feininger (UA)“"
     }
   ]
 }
