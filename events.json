@@ -1,26 +1,6 @@
 {
-  "generated": "2026-09-30T11:49:01.027365+00:00",
+  "generated": "2026-10-01T12:18:23.004963+00:00",
   "events": [
-    {
-      "id": "3c4fe08903",
-      "title": "Espresso-Konzert",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-30",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/12481",
-      "description": "Koffein für die Ohren – mit dem Heval Trio"
-    },
-    {
-      "id": "7756bafa3b",
-      "title": "AGGREGATE Festival 2026 – Eröffnungskonzert",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-09-30",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/aggregate-festival-2026-eroffnungskonzert/12482",
-      "description": "pipes & circuits – neue Werke für Hyperorgel"
-    },
     {
       "id": "a86b2d9072",
       "title": "OPUS KLASSIK Gala 2026",
@@ -50,6 +30,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/berliner-konzert-chor/13346",
       "description": "Christoph Reuter – „A Modern Man – Ein Oratorium über Lyonel Feininger (UA)“"
+    },
+    {
+      "id": "81a351272e",
+      "title": "musica reanimata – Gesprächskonzert",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-15",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/musica-reanimata-gesprachskonzert/12489",
+      "description": "Vertrieben aus Deutschland, Weiterarbeit in Japan und USA. Der Komponist und Dirigent Joseph Rosenstock"
     }
   ]
 }
