@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T11:47:02.561449+00:00",
+  "generated": "2026-10-03T11:00:10.822319+00:00",
   "events": [
     {
       "id": "a86b2d9072",
@@ -60,6 +60,56 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/kammermusik-des-konzerthausorchesters/12786",
       "description": "mit Werken von Frank Bridge, Ernst von Dohnány und Robert Schumann"
+    },
+    {
+      "id": "20c1d2cb94",
+      "title": "Familienführung",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-17",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/familienfuhrung/12965",
+      "description": "„Wir entdecken das Konzerthaus“"
+    },
+    {
+      "id": "a57e6fdb5b",
+      "title": "Führung durch das Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-17",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/13129",
+      "description": "in deutscher Sprache"
+    },
+    {
+      "id": "27a5d3dd80",
+      "title": "KlangKüken",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-17",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/klangkuken/12492",
+      "description": "Herbstzeitlose – Blättertanz und Stimmenwind"
+    },
+    {
+      "id": "f7d6c9d0f8",
+      "title": "Vogler Quartett",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-17",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/vogler-quartett/12494",
+      "description": ""
+    },
+    {
+      "id": "f40e62c815",
+      "title": "Konzerthausorchester Berlin, François Leleux",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-17",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-francois-leleux/12495",
+      "description": ""
     }
   ]
 }
