@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-03T11:00:10.822319+00:00",
+  "generated": "2026-10-04T11:42:01.324981+00:00",
   "events": [
     {
       "id": "a86b2d9072",
@@ -109,6 +109,46 @@
       "date": "2026-10-17",
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-francois-leleux/12495",
+      "description": ""
+    },
+    {
+      "id": "c78d7e4534",
+      "title": "Mozart-Matinee",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-18",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/mozart-matinee/12496",
+      "description": "mit dem Konzerthausorchester Berlin, François Leleux"
+    },
+    {
+      "id": "046a424ea5",
+      "title": "Kinderbetreuung Mozart-Matinee",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-18",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/kinderbetreuung-mozart-matinee/13310",
+      "description": "KlangKüken – Herbstzeitlose – Blättertanz und Stimmenwind"
+    },
+    {
+      "id": "ee160103a5",
+      "title": "KlangKüken",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-18",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/klangkuken/12497",
+      "description": "Herbstzeitlose – Blättertanz und Stimmenwind"
+    },
+    {
+      "id": "0a778fa18a",
+      "title": "Konzerthausorchester Berlin, François Leleux",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-18",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-francois-leleux/12498",
       "description": ""
     }
   ]
