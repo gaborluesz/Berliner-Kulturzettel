@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T12:32:11.020052+00:00",
+  "generated": "2026-10-08T12:41:42.343310+00:00",
   "events": [
     {
       "id": "a86b2d9072",
@@ -150,6 +150,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-francois-leleux/12498",
       "description": ""
+    },
+    {
+      "id": "c1a4ff36f3",
+      "title": "Espresso-Konzert",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-22",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/12499",
+      "description": "Koffein für die Ohren – mit Studierenden der Hochschule für Musik Hanns Eisler Berlin"
     }
   ]
 }
