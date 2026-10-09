@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T12:41:42.343310+00:00",
+  "generated": "2026-10-09T12:29:11.973884+00:00",
   "events": [
     {
       "id": "a86b2d9072",
@@ -160,6 +160,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/12499",
       "description": "Koffein für die Ohren – mit Studierenden der Hochschule für Musik Hanns Eisler Berlin"
+    },
+    {
+      "id": "9b5c4ae06b",
+      "title": "C. Bechstein Klavierabend",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/c-bechstein-klavierabend/13316",
+      "description": "Alexander Maria Wagner spielt Werke von Johann Sebastian Bach, Robert Schumann, Alexander Skrjabin und anderen"
     }
   ]
 }
