@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T12:29:11.973884+00:00",
+  "generated": "2026-10-10T11:47:56.436209+00:00",
   "events": [
     {
       "id": "a86b2d9072",
@@ -170,6 +170,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/c-bechstein-klavierabend/13316",
       "description": "Alexander Maria Wagner spielt Werke von Johann Sebastian Bach, Robert Schumann, Alexander Skrjabin und anderen"
+    },
+    {
+      "id": "d44fa201af",
+      "title": "Führung durch das Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/13130",
+      "description": "in deutscher Sprache"
+    },
+    {
+      "id": "a9dbff17f9",
+      "title": "Orgelstunde",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-24",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/orgelstunde/12500",
+      "description": "mit Konstantin Volostnov"
     }
   ]
 }
