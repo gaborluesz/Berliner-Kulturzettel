@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T11:47:56.436209+00:00",
+  "generated": "2026-10-11T11:59:43.732339+00:00",
   "events": [
     {
       "id": "a86b2d9072",
@@ -190,6 +190,36 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/orgelstunde/12500",
       "description": "mit Konstantin Volostnov"
+    },
+    {
+      "id": "17232cd546",
+      "title": "Neue Philharmonie",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/neue-philharmonie/13425",
+      "description": "Helden der Filmmusik: Herr der Ringe, Harry Potter, James Bond und mehr"
+    },
+    {
+      "id": "6aa26ac7d4",
+      "title": "Galakonzert",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/galakonzert/13494",
+      "description": "Internationale Musikakademie für Förderung Hochbegabter in Deutschland"
+    },
+    {
+      "id": "c3349654ff",
+      "title": "Kathrin Pechlof Trio",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-25",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/kathrin-pechlof-trio/13408",
+      "description": "Hyperobjekt"
     }
   ]
 }
