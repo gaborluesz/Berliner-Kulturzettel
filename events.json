@@ -1,26 +1,6 @@
 {
-  "generated": "2026-10-14T11:02:54.852940+00:00",
+  "generated": "2026-10-15T10:45:46.339958+00:00",
   "events": [
-    {
-      "id": "02b6d93114",
-      "title": "Espresso-Konzert",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-14",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/12488",
-      "description": "Koffein für die Ohren – mit Žilvinas Brazauskas und Marlene Heiß"
-    },
-    {
-      "id": "288eb031aa",
-      "title": "Berliner Konzert Chor",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-14",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/berliner-konzert-chor/13346",
-      "description": "Christoph Reuter – „A Modern Man – Ein Oratorium über Lyonel Feininger (UA)“"
-    },
     {
       "id": "81a351272e",
       "title": "musica reanimata – Gesprächskonzert",
