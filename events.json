@@ -1,26 +1,6 @@
 {
-  "generated": "2026-10-16T10:33:44.590429+00:00",
+  "generated": "2026-10-17T10:03:09.388697+00:00",
   "events": [
-    {
-      "id": "5b6fbe1c53",
-      "title": "NEXTDOOR TALK",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-16",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/nextdoor-talk/13521",
-      "description": "Musiktalk mit Mandhla. (Soul Diaries)"
-    },
-    {
-      "id": "5252d9f07a",
-      "title": "Kammermusik des Konzerthausorchesters",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-16",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/kammermusik-des-konzerthausorchesters/12786",
-      "description": "mit Werken von Frank Bridge, Ernst von Dohnány und Robert Schumann"
-    },
     {
       "id": "20c1d2cb94",
       "title": "Familienführung",
@@ -199,6 +179,36 @@
       "date": "2026-10-30",
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-riccardo-minasi/12501",
+      "description": "mit Pablo Ferrández"
+    },
+    {
+      "id": "56315b1f58",
+      "title": "Führung durch das Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/13131",
+      "description": "in deutscher Sprache"
+    },
+    {
+      "id": "4a6b4367b3",
+      "title": "Guided tour of the Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/guided-tour-of-the-konzerthaus-berlin/12977",
+      "description": "in English"
+    },
+    {
+      "id": "bb5909460b",
+      "title": "Konzerthausorchester Berlin, Riccardo Minasi",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-10-31",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-riccardo-minasi/12502",
       "description": "mit Pablo Ferrández"
     }
   ]
