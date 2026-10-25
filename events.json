@@ -1,26 +1,6 @@
 {
-  "generated": "2026-10-24T10:10:02.740114+00:00",
+  "generated": "2026-10-25T10:35:17.144674+00:00",
   "events": [
-    {
-      "id": "d44fa201af",
-      "title": "Führung durch das Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-24",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/13130",
-      "description": "in deutscher Sprache"
-    },
-    {
-      "id": "a9dbff17f9",
-      "title": "Orgelstunde",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-24",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/orgelstunde/12500",
-      "description": "mit Konstantin Volostnov"
-    },
     {
       "id": "17232cd546",
       "title": "Neue Philharmonie",
