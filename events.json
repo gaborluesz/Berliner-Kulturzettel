@@ -1,36 +1,6 @@
 {
-  "generated": "2026-10-25T10:35:17.144674+00:00",
+  "generated": "2026-10-26T12:08:30.106750+00:00",
   "events": [
-    {
-      "id": "17232cd546",
-      "title": "Neue Philharmonie",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-25",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/neue-philharmonie/13425",
-      "description": "Helden der Filmmusik: Herr der Ringe, Harry Potter, James Bond und mehr"
-    },
-    {
-      "id": "6aa26ac7d4",
-      "title": "Galakonzert",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-25",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/galakonzert/13494",
-      "description": "Internationale Musikakademie für Förderung Hochbegabter in Deutschland"
-    },
-    {
-      "id": "c3349654ff",
-      "title": "Kathrin Pechlof Trio",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-25",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/kathrin-pechlof-trio/13408",
-      "description": "Hyperobjekt"
-    },
     {
       "id": "82d0c00d76",
       "title": "AsianArt Ensemble",
