@@ -1,16 +1,6 @@
 {
-  "generated": "2026-10-27T11:29:56.683388+00:00",
+  "generated": "2026-10-28T11:59:56.951645+00:00",
   "events": [
-    {
-      "id": "82d0c00d76",
-      "title": "AsianArt Ensemble",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-27",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/asianart-ensemble/13213",
-      "description": "Labor der Traditionen – Electric Rituals"
-    },
     {
       "id": "836b2a4fad",
       "title": "Konzerthausorchester Berlin, Riccardo Minasi",
@@ -60,6 +50,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/asina-the-sounds-of-mesopotamia/12505",
       "description": ""
+    },
+    {
+      "id": "d29ebf154f",
+      "title": "Musiktheaterperformance zu Strawinskys „Le Sacre du Printemps“",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-11",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/musiktheaterperformance-zu-strawinskys-le-sacre-du-printemps/13247",
+      "description": "Prolog zum Festival nowHERE"
     }
   ]
 }
