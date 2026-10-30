@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-29T12:10:30.299136+00:00",
+  "generated": "2026-10-30T12:00:46.113386+00:00",
   "events": [
     {
       "id": "836b2a4fad",
@@ -60,6 +60,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/musiktheaterperformance-zu-strawinskys-le-sacre-du-printemps/13247",
       "description": "Prolog zum Festival nowHERE"
+    },
+    {
+      "id": "a1f62046d2",
+      "title": "Wandelkonzert durch drei Säle",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-13",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/wandelkonzert-durch-drei-sale/13248",
+      "description": "Eröffnung Festival nowHERE mit dem Konzerthausorchester Berlin & Vimbayi Kaziboni"
     }
   ]
 }
