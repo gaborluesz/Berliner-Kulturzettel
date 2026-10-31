@@ -1,16 +1,6 @@
 {
-  "generated": "2026-10-30T12:00:46.113386+00:00",
+  "generated": "2026-10-31T11:36:16.544885+00:00",
   "events": [
-    {
-      "id": "836b2a4fad",
-      "title": "Konzerthausorchester Berlin, Riccardo Minasi",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-30",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-riccardo-minasi/12501",
-      "description": "mit Pablo Ferrández"
-    },
     {
       "id": "56315b1f58",
       "title": "Führung durch das Konzerthaus Berlin",
@@ -70,6 +60,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/wandelkonzert-durch-drei-sale/13248",
       "description": "Eröffnung Festival nowHERE mit dem Konzerthausorchester Berlin & Vimbayi Kaziboni"
+    },
+    {
+      "id": "698f159304",
+      "title": "KONZERTHAUS X İÇ İÇE",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-14",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthaus-x-ic-ice/13070",
+      "description": "Eine rauschende Entdeckungstour durchs ganze Haus mit anatolischer Musik, Performance, Film und Tanz"
     }
   ]
 }
