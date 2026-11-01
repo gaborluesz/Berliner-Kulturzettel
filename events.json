@@ -1,36 +1,6 @@
 {
-  "generated": "2026-10-31T11:36:16.544885+00:00",
+  "generated": "2026-11-01T12:34:04.128711+00:00",
   "events": [
-    {
-      "id": "56315b1f58",
-      "title": "Führung durch das Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-31",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/13131",
-      "description": "in deutscher Sprache"
-    },
-    {
-      "id": "4a6b4367b3",
-      "title": "Guided tour of the Konzerthaus Berlin",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-31",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/guided-tour-of-the-konzerthaus-berlin/12977",
-      "description": "in English"
-    },
-    {
-      "id": "bb5909460b",
-      "title": "Konzerthausorchester Berlin, Riccardo Minasi",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-10-31",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-riccardo-minasi/12502",
-      "description": "mit Pablo Ferrández"
-    },
     {
       "id": "d03ea3ff61",
       "title": "Aşina – The Sounds of Mesopotamia",
@@ -70,6 +40,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/konzerthaus-x-ic-ice/13070",
       "description": "Eine rauschende Entdeckungstour durchs ganze Haus mit anatolischer Musik, Performance, Film und Tanz"
+    },
+    {
+      "id": "fbe63c0461",
+      "title": "Ringel Rangel Röschen",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-15",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/ringel-rangel-roschen/12507",
+      "description": "Ein MärchenSpiel mit Musik – In Kooperation mit dem Theater Thikwa"
+    },
+    {
+      "id": "57c62d668c",
+      "title": "Ibrahim Maalouf & The Trumpets of Michel-Ange Vol. 2",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-15",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/ibrahim-maalouf-the-trumpets-of-michel-ange-vol-2/13074",
+      "description": ""
     }
   ]
 }
