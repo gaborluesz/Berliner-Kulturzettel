@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T14:36:50.697850+00:00",
+  "generated": "2026-11-03T13:30:18.451062+00:00",
   "events": [
     {
       "id": "d03ea3ff61",
@@ -60,6 +60,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/ibrahim-maalouf-the-trumpets-of-michel-ange-vol-2/13074",
       "description": ""
+    },
+    {
+      "id": "d5a579091f",
+      "title": "Berlin Tracks: Kunal Lahiry & Freddie Ballentine",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-17",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/berlin-tracks-kunal-lahiry-freddie-ballentine/13071",
+      "description": "OUR PEOPLE VOL. II: Lied trifft auf Voguing!"
     }
   ]
 }
