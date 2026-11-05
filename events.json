@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T13:41:09.903592+00:00",
+  "generated": "2026-11-05T13:53:55.398646+00:00",
   "events": [
     {
       "id": "d03ea3ff61",
@@ -70,6 +70,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/berlin-tracks-kunal-lahiry-freddie-ballentine/13071",
       "description": "OUR PEOPLE VOL. II: Lied trifft auf Voguing!"
+    },
+    {
+      "id": "2525bf4f6f",
+      "title": "Canto Diáspora",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-19",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/canto-diaspora/13537",
+      "description": "Gesänge und Rhythmen aus Lateinamerika zum Mitsingen"
+    },
+    {
+      "id": "b195dc16f9",
+      "title": "La Chica & El Duende Orchestra",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-19",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/la-chica-el-duende-orchestra/13072",
+      "description": "Urbane Beats und Orchesterklang"
     }
   ]
 }
