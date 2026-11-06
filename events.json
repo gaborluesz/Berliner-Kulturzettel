@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-05T13:53:55.398646+00:00",
+  "generated": "2026-11-06T13:39:22.128659+00:00",
   "events": [
     {
       "id": "d03ea3ff61",
@@ -90,6 +90,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/la-chica-el-duende-orchestra/13072",
       "description": "Urbane Beats und Orchesterklang"
+    },
+    {
+      "id": "19017f8db5",
+      "title": "Detect Ensemble & Acid Pauli // O/Y",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-20",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/detect-ensemble-acid-pauli-oy/13538",
+      "description": "Instrumental, elektronisch, improvisiert und komponiert"
     }
   ]
 }
