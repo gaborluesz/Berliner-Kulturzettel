@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T12:39:17.897890+00:00",
+  "generated": "2026-11-09T14:58:44.432144+00:00",
   "events": [
     {
       "id": "d03ea3ff61",
@@ -140,6 +140,16 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-circle-of-live/13111",
       "description": "Abschlusskonzert mit Igor Strawinksys „Le Sacre du Printemps“ und improvisiertem, elektronischem Live-Set"
+    },
+    {
+      "id": "e085e0c647",
+      "title": "Beethoven: Der Beginn einer Revolution",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-23",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/beethoven-der-beginn-einer-revolution/12987",
+      "description": "Klavierrezital Cristian Sandrin"
     }
   ]
 }
