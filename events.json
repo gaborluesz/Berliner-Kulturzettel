@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T14:58:44.432144+00:00",
+  "generated": "2026-11-10T14:11:58.633227+00:00",
   "events": [
     {
       "id": "d03ea3ff61",
@@ -150,6 +150,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/beethoven-der-beginn-einer-revolution/12987",
       "description": "Klavierrezital Cristian Sandrin"
+    },
+    {
+      "id": "afc3602649",
+      "title": "Armida Quartett",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-24",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/armida-quartett/12447",
+      "description": "Streichquartett im Kleinen Saal"
+    },
+    {
+      "id": "629d6c2959",
+      "title": "NEXTDOOR TALK",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-24",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/nextdoor-talk/13584",
+      "description": "Vinyltalk mit Armeghan Taheri (Afghan Punk)"
     }
   ]
 }
