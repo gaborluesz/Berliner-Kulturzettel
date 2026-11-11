@@ -1,16 +1,6 @@
 {
-  "generated": "2026-11-10T14:11:58.633227+00:00",
+  "generated": "2026-11-11T13:27:07.252575+00:00",
   "events": [
-    {
-      "id": "d03ea3ff61",
-      "title": "Aşina – The Sounds of Mesopotamia",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-11-10",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/asina-the-sounds-of-mesopotamia/12505",
-      "description": ""
-    },
     {
       "id": "d29ebf154f",
       "title": "Musiktheaterperformance zu Strawinskys „Le Sacre du Printemps“",
@@ -170,6 +160,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/nextdoor-talk/13584",
       "description": "Vinyltalk mit Armeghan Taheri (Afghan Punk)"
+    },
+    {
+      "id": "088125600f",
+      "title": "Espresso-Konzert",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-25",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/12516",
+      "description": "Koffein für die Ohren – mit dem Berliner Luftblech"
+    },
+    {
+      "id": "7c4468109c",
+      "title": "Chor der Sankt Hedwigs Kathedrale",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-25",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/chor-der-sankt-hedwigs-kathedrale/13493",
+      "description": "Cantate Domino – Chormusik der Jahrhunderte"
     }
   ]
 }
