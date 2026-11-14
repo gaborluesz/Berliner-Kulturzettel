@@ -1,16 +1,6 @@
 {
-  "generated": "2026-11-13T13:50:28.029104+00:00",
+  "generated": "2026-11-14T12:53:02.177897+00:00",
   "events": [
-    {
-      "id": "a1f62046d2",
-      "title": "Wandelkonzert durch drei Säle",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-11-13",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/wandelkonzert-durch-drei-sale/13248",
-      "description": "Eröffnung Festival nowHERE mit dem Konzerthausorchester Berlin & Vimbayi Kaziboni"
-    },
     {
       "id": "698f159304",
       "title": "KONZERTHAUS X İÇ İÇE",
@@ -189,6 +179,56 @@
       "date": "2026-11-27",
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-aurel-dawidiuk/12519",
+      "description": "mit Anastasia Kobekina"
+    },
+    {
+      "id": "dd3626a0ff",
+      "title": "beschenkt",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-28",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/beschenkt/12520",
+      "description": "Ein Adventskalender aus Musik, Tanz und Wort"
+    },
+    {
+      "id": "7edec2834e",
+      "title": "Familienführung",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-28",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/familienfuhrung/12966",
+      "description": "„Wir entdecken das Konzerthaus“"
+    },
+    {
+      "id": "b226c12a60",
+      "title": "Führung durch das Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-28",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/fuhrung-durch-das-konzerthaus-berlin/13132",
+      "description": "in deutscher Sprache"
+    },
+    {
+      "id": "7bb4f1c5ae",
+      "title": "Guided tour of the Konzerthaus Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-28",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/guided-tour-of-the-konzerthaus-berlin/12978",
+      "description": "in English"
+    },
+    {
+      "id": "265439f178",
+      "title": "Konzerthausorchester Berlin, Aurel Dawidiuk",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-28",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-aurel-dawidiuk/12522",
       "description": "mit Anastasia Kobekina"
     }
   ]
