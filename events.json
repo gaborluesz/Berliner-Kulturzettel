@@ -1,16 +1,6 @@
 {
-  "generated": "2026-11-14T12:53:02.177897+00:00",
+  "generated": "2026-11-15T13:20:57.023896+00:00",
   "events": [
-    {
-      "id": "698f159304",
-      "title": "KONZERTHAUS X İÇ İÇE",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-11-14",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthaus-x-ic-ice/13070",
-      "description": "Eine rauschende Entdeckungstour durchs ganze Haus mit anatolischer Musik, Performance, Film und Tanz"
-    },
     {
       "id": "fbe63c0461",
       "title": "Ringel Rangel Röschen",
@@ -230,6 +220,36 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-aurel-dawidiuk/12522",
       "description": "mit Anastasia Kobekina"
+    },
+    {
+      "id": "f9804fdfb1",
+      "title": "beschenkt",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-29",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/beschenkt/12523",
+      "description": "Ein Adventskalender aus Musik, Tanz und Wort"
+    },
+    {
+      "id": "ca928e63e1",
+      "title": "Kammermusikmatinee des Konzerthausorchesters",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-29",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/kammermusikmatinee-des-konzerthausorchesters/12787",
+      "description": "mit Streichquartetten von Emilie Mayer und Felix Mendelssohn Bartholdy"
+    },
+    {
+      "id": "bf0ffc998c",
+      "title": "Rundfunk-Sinfonieorchester Berlin, Vladimir Jurowski",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-11-29",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/rundfunk-sinfonieorchester-berlin-vladimir-jurowski/13318",
+      "description": "mit Maria Ioudenitch"
     }
   ]
 }
