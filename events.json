@@ -1,26 +1,6 @@
 {
-  "generated": "2026-11-25T16:41:57.868136+00:00",
+  "generated": "2026-11-26T16:15:58.348721+00:00",
   "events": [
-    {
-      "id": "088125600f",
-      "title": "Espresso-Konzert",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-11-25",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/espresso-konzert/12516",
-      "description": "Koffein für die Ohren – mit dem Berliner Luftblech"
-    },
-    {
-      "id": "7c4468109c",
-      "title": "Chor der Sankt Hedwigs Kathedrale",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-11-25",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/chor-der-sankt-hedwigs-kathedrale/13493",
-      "description": "Cantate Domino – Chormusik der Jahrhunderte"
-    },
     {
       "id": "e0475840e4",
       "title": "8ZEHN30 – Kurzkonzert",
