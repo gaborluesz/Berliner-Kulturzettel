@@ -1,16 +1,6 @@
 {
-  "generated": "2026-11-26T16:15:58.348721+00:00",
+  "generated": "2026-11-27T16:00:05.567840+00:00",
   "events": [
-    {
-      "id": "e0475840e4",
-      "title": "8ZEHN30 – Kurzkonzert",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-11-26",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/8zehn30-kurzkonzert/12517",
-      "description": "mit dem Konzerthausorchester Berlin und Aurel Dawidiuk"
-    },
     {
       "id": "42fc0ebbc5",
       "title": "Konzerthausorchester Berlin, Aurel Dawidiuk",
@@ -100,6 +90,26 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/rundfunk-sinfonieorchester-berlin-vladimir-jurowski/13318",
       "description": "mit Maria Ioudenitch"
+    },
+    {
+      "id": "c246a23cbd",
+      "title": "Kammermusik des Konzerthausorchesters",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-12-11",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/kammermusik-des-konzerthausorchesters/12788",
+      "description": "mit dem Horenstein Ensemble"
+    },
+    {
+      "id": "63a3d801fe",
+      "title": "Kammerorchester der Hochschule für Musik Hanns Eisler Berlin",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-12-11",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/kammerorchester-der-hochschule-fur-musik-hanns-eisler-berlin/13423",
+      "description": ""
     }
   ]
 }
