@@ -1,16 +1,6 @@
 {
-  "generated": "2026-11-27T16:00:05.567840+00:00",
+  "generated": "2026-11-28T14:57:07.714445+00:00",
   "events": [
-    {
-      "id": "42fc0ebbc5",
-      "title": "Konzerthausorchester Berlin, Aurel Dawidiuk",
-      "category": "Konzert",
-      "venue": "Konzerthaus Berlin",
-      "date": "2026-11-27",
-      "time": "20:00",
-      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-aurel-dawidiuk/12519",
-      "description": "mit Anastasia Kobekina"
-    },
     {
       "id": "dd3626a0ff",
       "title": "beschenkt",
@@ -110,6 +100,36 @@
       "time": "20:00",
       "url": "https://www.konzerthaus.de/de/programm/kammerorchester-der-hochschule-fur-musik-hanns-eisler-berlin/13423",
       "description": ""
+    },
+    {
+      "id": "372e7f8650",
+      "title": "KlangKüken",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-12-12",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/klangkuken/12538",
+      "description": "Weihnachtsstern – Plätzchenklang und Schneeflockengeflüster"
+    },
+    {
+      "id": "d3fc7adce8",
+      "title": "Konzerthausorchester Berlin, Giovanni Antonini",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-12-12",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/konzerthausorchester-berlin-giovanni-antonini/12540",
+      "description": ""
+    },
+    {
+      "id": "d134d66284",
+      "title": "Lyambiko",
+      "category": "Konzert",
+      "venue": "Konzerthaus Berlin",
+      "date": "2026-12-12",
+      "time": "20:00",
+      "url": "https://www.konzerthaus.de/de/programm/lyambiko/13322",
+      "description": "My Favourite Christmas Songs"
     }
   ]
 }
